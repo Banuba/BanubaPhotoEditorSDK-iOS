@@ -1,0 +1,11 @@
+framework module BanubaPhotoEditorSDK {
+  umbrella header "BanubaPhotoEditorSDK.h"
+  export *
+
+  module * { export * }
+}
+
+module BanubaPhotoEditorSDK.Swift {
+  header "BanubaPhotoEditorSDK-Swift.h"
+  requires objc
+}

@@ -1,0 +1,56 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BanubaPhotoEditorSDK
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import Accelerate
+import AudioToolbox
+import BNBSdkApi
+import BNBSdkCore
+import BanubaLicenseServicingSDK
+@_exported import BanubaPhotoEditorSDK
+import BanubaUtilities
+import CoreGraphics
+import DeveloperToolsSupport
+import Foundation
+import Photos
+import PhotosUI
+import Swift
+import SwiftUI
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class AlbumPreviewCollectionViewCell : UIKit.UICollectionViewCell {
+  @objc deinit
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func awakeFromNib()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func prepareForReuse()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+}
+public struct PhotoEditorConfig {
+  public var previewScreenConfiguration: BanubaPhotoEditorSDK.PreviewScreenConfiguration
+  public init()
+  public init(previewScreenConfiguration: BanubaPhotoEditorSDK.PreviewScreenConfiguration)
+}
+public struct PreviewScreenConfiguration {
+  public var facebookId: Swift.String
+  public init(facebookId: Swift.String)
+  public init()
+}
+public struct PhotoEditorLaunchConfig {
+  public let hostController: UIKit.UIViewController
+  public init(hostController: UIKit.UIViewController)
+}
+public protocol BanubaPhotoEditorDelegate : AnyObject {
+  func photoEditorDidCancel(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor)
+  func photoEditorDidFinishWithImage(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor, image: UIKit.UIImage)
+}
+public class BanubaPhotoEditor {
+  weak public var delegate: (any BanubaPhotoEditorSDK.BanubaPhotoEditorDelegate)?
+  public init?(token: Swift.String, configuration: BanubaPhotoEditorSDK.PhotoEditorConfig)
+  @objc deinit
+  public func presentPhotoEditor(withLaunchConfiguration configuration: BanubaPhotoEditorSDK.PhotoEditorLaunchConfig, completion: (() -> Swift.Void)?)
+  public func dismissVideoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  public func getLicenseState(completion: @escaping ((Swift.Bool) -> Swift.Void))
+}

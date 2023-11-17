@@ -1,0 +1,607 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BNBSdkApi
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import AVFoundation
+import AVKit
+import Accelerate
+@_exported import BNBSdkApi
+import BNBSdkCore
+import CoreGraphics
+import CoreImage
+import CoreMedia
+import CoreMotion
+import Foundation
+import MediaPlayer
+import Metal
+import QuartzCore
+import Swift
+import UIKit
+import VideoToolbox
+import _Concurrency
+import _StringProcessing
+@objc public protocol BanubaSdkManagerDelegate {
+  @objc func willPresentFramebuffer(renderSize: CoreFoundation.CGSize)
+  @objc func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
+}
+@_inheritsConvenienceInitializers @objc public class BanubaSdkManager : ObjectiveC.NSObject {
+  @objc weak public var delegate: BNBSdkApi.BanubaSdkManagerDelegate?
+  @objc public var effectPlayer: BNBSdkCore.BNBEffectPlayer? {
+    get
+  }
+  @objc public var faceOrientation: Swift.Int
+  @objc public func effectManager() -> BNBSdkCore.BNBEffectManager?
+  @objc public var autoRotationEnabled: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @discardableResult
+  @objc public func loadEffect(_ effectUrl: Swift.String, synchronous: Swift.Bool = false) -> BNBSdkCore.BNBEffect?
+  @objc public func unloadEffect(effect: BNBSdkCore.BNBEffect?)
+  @objc public func currentEffect() -> BNBSdkCore.BNBEffect?
+  @objc public func setMaxFaces(_ maxFaces: Swift.Int)
+  @objc public var input: BNBSdkApi.InputServicing {
+    @objc get
+    @objc set
+  }
+  @objc public var output: BNBSdkApi.OutputServicing? {
+    @objc get
+  }
+  @objc public var renderTarget: BNBSdkApi.RenderTarget?
+  @objc public var playerConfiguration: BNBSdkApi.EffectPlayerConfiguration? {
+    @objc get
+  }
+  @objc public func setRenderTarget(view: BNBSdkApi.EffectPlayerView, playerConfiguration: BNBSdkApi.EffectPlayerConfiguration?)
+  @objc public func setOpenGLRenderTarget(view: BNBSdkApi.OpenGLEffectPlayerView, playerConfiguration: BNBSdkApi.EffectPlayerConfiguration?)
+  @objc public func setRenderTarget(layer: QuartzCore.CAMetalLayer, playerConfiguration: BNBSdkApi.EffectPlayerConfiguration?)
+  @objc public func setOpenGLRenderTarget(layer: QuartzCore.CAEAGLLayer, playerConfiguration: BNBSdkApi.EffectPlayerConfiguration?)
+  @objc public func removeRenderTarget()
+  public var editingImageFrameData: BNBSdkCore.BNBFrameData? {
+    get
+  }
+  @objc public var renderThread: Foundation.Thread? {
+    @objc get
+  }
+  @objc public var shouldAutoStartOnEnterForeground: Swift.Bool
+  @objc public var isDrawOnDemandMode: Swift.Bool {
+    get
+  }
+  @objc public var frameOnDemandRendered: Swift.Bool {
+    get
+  }
+  @objc public var isLoaded: Swift.Bool {
+    get
+  }
+  @objc override dynamic public init()
+  @objc public class func initialize(resourcePath: [Swift.String] = [], clientTokenString: Swift.String, logLevel: BNBSdkCore.BNBSeverityLevel = .info)
+  @objc public class func deinitialize()
+  @objc public class func enableDiagnostics(outputFolder: Swift.String)
+  @objc deinit
+  @objc public func setDrawOnDemandMode(_ mode: Swift.Bool)
+  @objc public func requestFrameDraw()
+  @objc public func setup(configuration: BNBSdkApi.EffectPlayerConfiguration)
+  @objc public func destroy()
+  @objc public static func scaleBeforeProcessing(_ buffer: CoreVideo.CVPixelBuffer?) -> CoreVideo.CVPixelBuffer?
+}
+@objc extension BNBSdkApi.BanubaSdkManager : BNBSdkApi.InputServiceDelegate {
+  @objc dynamic public func push(cmBuffer: CoreMedia.CMSampleBuffer)
+  @objc dynamic public func push(cvBuffer: CoreVideo.CVPixelBuffer)
+}
+@objc extension BNBSdkApi.BanubaSdkManager {
+  @objc dynamic public func startEffectPlayer()
+  @objc dynamic public func stopEffectPlayer()
+  @objc dynamic public func destroyEffectPlayer()
+  @objc dynamic public func startEditingImage(_ image: UIKit.UIImage, recognizerIterations: Foundation.NSNumber? = nil, imageOrientation: BNBSdkCore.BNBCameraOrientation = .deg0, requireMirroring: Swift.Bool = false, faceOrientation: Swift.Int = 0, fieldOfView: Swift.Float = 60, resetEffect: Swift.Bool = false, completion: ((Swift.Int, CoreFoundation.CGRect) -> Swift.Void)? = nil)
+  @objc dynamic public func updateEditingFrameWithImage(_ image: UIKit.UIImage, imageOrientation: BNBSdkCore.BNBCameraOrientation = .deg0, requireMirroring: Swift.Bool = false, faceOrientation: Swift.Int = 0, fieldOfView: Swift.Float = 60, completion: ((Swift.Bool) -> Swift.Void)? = nil)
+  @objc dynamic public func captureEditedImage(imageOrientation: BNBSdkCore.BNBCameraOrientation = .deg0, resetEffect: Swift.Bool = false, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc dynamic public func stopEditingImage(startCameraInput: Swift.Bool = false)
+  @objc dynamic public func makeCameraPhoto(cameraSettings: BNBSdkApi.CameraPhotoSettings, flipFrontCamera: Swift.Bool = false, srcImageHandler: ((CoreVideo.CVPixelBuffer) -> Swift.Void)? = nil, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc dynamic public func processImageData(_ inputData: CoreVideo.CVImageBuffer, orientation: BNBSdkCore.BNBCameraOrientation = .deg0, faceOrientation: Swift.Int = 0, fieldOfView: Swift.Float = 60, isMirrored: Swift.Bool = false, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc dynamic public func processImageData(_ imputImage: UIKit.UIImage, orientation: BNBSdkCore.BNBCameraOrientation = .deg0, fieldOfView: Swift.Float = 60, isMirrored: Swift.Bool = false, completion: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc dynamic public func configureWatermark(_ watermarkInfo: BNBSdkApi.WatermarkInfo)
+  @objc dynamic public func removeWatermark()
+  @objc dynamic public func startVideoProcessing(width: Swift.UInt, height: Swift.UInt, orientation: BNBSdkCore.BNBCameraOrientation = .deg0, resetEffect: Swift.Bool = false)
+  @objc dynamic public func stopVideoProcessing(resetEffect: Swift.Bool = false)
+  @objc dynamic public func processVideoFrame(from: CoreVideo.CVPixelBuffer, to: CoreVideo.CVPixelBuffer, timeNs: Swift.Int64, iterations: Foundation.NSNumber? = nil, cameraOrientation: BNBSdkCore.BNBCameraOrientation = .deg0, requireMirroring: Swift.Bool = false, faceOrientation: Swift.Int = 0, fieldOfView: Swift.Float = 60)
+  @objc dynamic public var photoCameraOrientation: BNBSdkCore.BNBCameraOrientation {
+    @objc get
+  }
+  @objc dynamic public var photoImageOrientation: UIKit.UIImage.Orientation {
+    @objc get
+  }
+  @objc dynamic public func activateRenderTarget()
+  @objc dynamic public func surfaceChanged(width: CoreFoundation.CGFloat, height: CoreFoundation.CGFloat)
+}
+extension BNBSdkApi.BanubaSdkManager : BNBSdkCore.BNBCameraPoiListener {
+  @objc dynamic public func onCameraPoiChanged(_ x: Swift.Float, y: Swift.Float)
+}
+extension BNBSdkApi.BanubaSdkManager : BNBSdkCore.BNBFaceNumberListener {
+  @objc dynamic public func onFaceNumberChanged(_ faceNumber: Swift.Int32)
+}
+extension BNBSdkApi.BanubaSdkManager : BNBSdkCore.BNBFrameDurationListener {
+  @objc dynamic public func onRecognizerFrameDurationChanged(_ instant: Swift.Float, averaged: Swift.Float)
+  @objc dynamic public func onCameraFrameDurationChanged(_ instant: Swift.Float, averaged: Swift.Float)
+  @objc dynamic public func onRenderFrameDurationChanged(_ instant: Swift.Float, averaged: Swift.Float)
+}
+@objc public protocol CameraDeviceVideoDelegate {
+  @objc func push(pixelBuffer: CoreVideo.CVPixelBuffer, fullImage: BNBSdkCore.BNBFullImageData)
+}
+@objc public protocol CameraDeviceAudioDelegate {
+  @objc func push(sampleBuffer: CoreMedia.CMSampleBuffer)
+}
+public class CameraDevice {
+  public typealias Mode = BNBSdkApi.CameraSessionType
+  public var videoDelegates: BNBSdkApi.MulticastDelegate<BNBSdkApi.CameraDeviceVideoDelegate>
+  public var audioDelegates: BNBSdkApi.MulticastDelegate<BNBSdkApi.CameraDeviceAudioDelegate>
+  public var mode: BNBSdkApi.CameraDevice.Mode {
+    get
+  }
+  public var trackUIOrientation: Swift.Bool
+  public init(cameraMode: BNBSdkApi.CameraDevice.Mode, captureSessionPreset: AVFoundation.AVCaptureSession.Preset, fpsLimit: Swift.Double = 60)
+  @objc deinit
+  public func start()
+  public func stop()
+  public func switchMode()
+}
+extension BNBSdkApi.CameraDevice : BNBSdkApi.InputServiceDelegate {
+  @objc dynamic public func push(cmBuffer: CoreMedia.CMSampleBuffer)
+  @objc dynamic public func push(cvBuffer: CoreVideo.CVPixelBuffer)
+}
+@_inheritsConvenienceInitializers @objc public class EffectPlayerConfiguration : ObjectiveC.NSObject {
+  @objc final public let cameraMode: BNBSdkApi.CameraSessionType
+  @objc public var renderSize: CoreFoundation.CGSize
+  @objc public var captureSessionPreset: AVFoundation.AVCaptureSession.Preset
+  @objc public var preferredRenderFrameRate: Swift.Int
+  @objc public var shouldAutoStartOnEnterForeground: Swift.Bool
+  @objc public var isMirrored: Swift.Bool
+  @objc public var flipVertically: Swift.Bool
+  @objc public var delayedCameraInitialization: Swift.Bool
+  @objc public var orientation: BNBSdkCore.BNBCameraOrientation
+  @objc public var notificationCenter: Foundation.NotificationCenter
+  @objc public var fpsLimit: Swift.Double
+  @objc override convenience dynamic public init()
+  @objc public init(cameraMode: BNBSdkApi.CameraSessionType = .FrontCameraSession, renderSize: CoreFoundation.CGSize = CGSize(width: 720, height: 1280), captureSessionPreset: AVFoundation.AVCaptureSession.Preset = .hd1280x720, orientation: BNBSdkCore.BNBCameraOrientation = .deg90, preferredRenderFrameRate: Swift.Int = 60, shouldAutoStartOnEnterForeground: Swift.Bool = true, isMirrored: Swift.Bool = false, flipVertically: Swift.Bool = true, fpsLimit: Swift.Double = 60, delayedCameraInitialization: Swift.Bool = false, notificationCenter: Foundation.NotificationCenter = NotificationCenter.default)
+  @objc deinit
+}
+public class Camera : BNBSdkApi.Input, BNBSdkApi.Attachable {
+  public init(cameraDevice: BNBSdkApi.CameraDevice)
+  @objc deinit
+  public func frameProcessor() -> BNBSdkCore.BNBFrameProcessor?
+  public func attach()
+  public func detach()
+}
+extension BNBSdkApi.Camera : BNBSdkApi.CameraDeviceVideoDelegate {
+  @objc dynamic public func push(pixelBuffer: CoreVideo.CVPixelBuffer, fullImage: BNBSdkCore.BNBFullImageData)
+}
+public protocol Input {
+  func frameProcessor() -> BNBSdkCore.BNBFrameProcessor?
+}
+public protocol Attachable {
+  func attach()
+  func detach()
+}
+public class Photo : BNBSdkApi.Input {
+  public init()
+  public func take(from cameraDevice: BNBSdkApi.CameraDevice, with settings: BNBSdkApi.CameraPhotoSettings)
+  public func take(from image: UIKit.UIImage)
+  public func take(from pixelBuffer: CoreVideo.CVPixelBuffer)
+  public func frameProcessor() -> BNBSdkCore.BNBFrameProcessor?
+  @objc deinit
+}
+public class Stream : BNBSdkApi.Input {
+  public init()
+  public func frameProcessor() -> BNBSdkCore.BNBFrameProcessor?
+  public func push(frameData: BNBSdkCore.BNBFrameData?)
+  public func push(pixelBuffer: CoreVideo.CVPixelBuffer, orientation: BNBSdkCore.BNBCameraOrientation = .deg0, fieldOfView: Swift.Float = 55.0)
+  @objc deinit
+}
+public protocol FramePresentable {
+  static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
+}
+extension UIKit.UIImage : BNBSdkApi.FramePresentable {
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
+}
+extension BNBSdkApi.RenderedFrame : BNBSdkApi.FramePresentable {
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
+}
+extension CoreImage.CIImage : BNBSdkApi.FramePresentable {
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
+}
+public class Frame<T> : BNBSdkApi.Output where T : BNBSdkApi.FramePresentable {
+  public init(onPresent: @escaping (T?) -> Swift.Void)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+  @objc deinit
+}
+public protocol Output {
+  func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+}
+public class PixelBuffer : BNBSdkApi.Output {
+  public init(onPresent: @escaping (CoreVideo.CVPixelBuffer?) -> Swift.Void, orientation: BNBSdkApi.Orientation = .up)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+  @objc deinit
+}
+public class PixelBufferYUV : BNBSdkApi.Output {
+  public enum PixelFormat {
+    case k420YpCbCr8BiPlanarFullRange
+    case k420YpCbCr8BiPlanarVideoRange
+    case k420YpCbCr8PlanarFullRange
+    case k420YpCbCr8Planar
+    public static func == (a: BNBSdkApi.PixelBufferYUV.PixelFormat, b: BNBSdkApi.PixelBufferYUV.PixelFormat) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public init(onPresent: @escaping (CoreVideo.CVPixelBuffer?) -> Swift.Void, pixelFormatType: BNBSdkApi.PixelBufferYUV.PixelFormat = .k420YpCbCr8BiPlanarFullRange, orientation: ImageIO.CGImagePropertyOrientation = .up)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+  @objc deinit
+}
+public class Video : BNBSdkApi.Output {
+  public var state: BNBSdkApi.VideoRecordingState {
+    get
+  }
+  public init(cameraDevice: BNBSdkApi.CameraDevice)
+  @objc deinit
+  public func record(url: Foundation.URL, size: CoreFoundation.CGSize, onStateChanged: @escaping (BNBSdkApi.VideoRecordingState) -> Swift.Void, onFinished: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void, onProgress: @escaping (Foundation.TimeInterval) -> Swift.Void)
+  public func pause()
+  public func resume()
+  public func stop()
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+}
+extension BNBSdkApi.Video : BNBSdkApi.VideoRecorderDelegate {
+  @objc dynamic public func onRecorderStateChanged(_ state: BNBSdkApi.VideoRecordingState)
+  @objc dynamic public func onRecordingFinished(success: Swift.Bool, error: Swift.Error?)
+  @objc dynamic public func onRecordingProgress(duration: Foundation.TimeInterval)
+}
+extension BNBSdkApi.Video : BNBSdkApi.CameraDeviceAudioDelegate {
+  @objc dynamic public func push(sampleBuffer: CoreMedia.CMSampleBuffer)
+}
+extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
+  @_Concurrency.MainActor(unsafe) public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
+}
+@objc public class Player : ObjectiveC.NSObject {
+  final public let effectPlayer: BNBSdkCore.BNBEffectPlayer
+  public enum RenderMode {
+    case loop
+    case manual
+    public static func == (a: BNBSdkApi.Player.RenderMode, b: BNBSdkApi.Player.RenderMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var renderMode: BNBSdkApi.Player.RenderMode {
+    get
+    set
+  }
+  public var size: CoreFoundation.CGSize {
+    get
+  }
+  public var volume: Swift.Float {
+    get
+    set
+  }
+  public var effect: BNBSdkCore.BNBEffect? {
+    get
+  }
+  public init(fps: Swift.Int = 30)
+  @objc deinit
+  public func play()
+  public func pause()
+  public func use(input: BNBSdkApi.Input?)
+  public func use(outputs: [BNBSdkApi.Output])
+  public func use(input: BNBSdkApi.Input?, outputs: [BNBSdkApi.Output])
+  public func load(effect: Swift.String, sync: Swift.Bool = false) -> BNBSdkCore.BNBEffect?
+  public func onResize(action: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+  public func render() -> Swift.Bool
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BaseEffectPlayerView : UIKit.UIView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public var contentMode: UIKit.UIView.ContentMode {
+    @objc get
+    @objc set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesBegan(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesMoved(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesEnded(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public func touchesCancelled(_ touches: Swift.Set<UIKit.UITouch>, with event: UIKit.UIEvent?)
+  @objc @_Concurrency.MainActor(unsafe) public func onLongTapGesture(gesture: UIKit.UITapGestureRecognizer)
+  @objc @_Concurrency.MainActor(unsafe) public func onDoubleTapGesture(gesture: UIKit.UITapGestureRecognizer)
+  @objc @_Concurrency.MainActor(unsafe) public func onScaleGesture(gesture: UIKit.UIPinchGestureRecognizer)
+  @objc @_Concurrency.MainActor(unsafe) public func onRotationGesture(gesture: UIKit.UIRotationGestureRecognizer)
+  @objc @_Concurrency.MainActor(unsafe) public func onSwipeGesture(gesture: UIKit.UISwipeGestureRecognizer)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class EffectPlayerView : BNBSdkApi.BaseEffectPlayerView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class OpenGLEffectPlayerView : BNBSdkApi.BaseEffectPlayerView {
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(frame: CoreFoundation.CGRect)
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
+    @objc get
+  }
+  @objc deinit
+}
+public enum Orientation : Swift.UInt32 {
+  case up
+  case left
+  case down
+  case right
+  public init?(rawValue: Swift.UInt32)
+  public typealias RawValue = Swift.UInt32
+  public var rawValue: Swift.UInt32 {
+    get
+  }
+}
+public typealias OffscreenRenderTarget = BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting
+@_inheritsConvenienceInitializers @objc public class RenderedFrame : ObjectiveC.NSObject {
+  public var bytes: Foundation.Data
+  public var size: CoreFoundation.CGSize
+  @available(*, unavailable, message: "Please, do not call this initializer! Use the initializer with parameters instead.")
+  @objc override dynamic public init()
+  public init(bytes: Foundation.Data, size: CoreFoundation.CGSize)
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class RenderTarget : ObjectiveC.NSObject {
+  @available(*, unavailable, message: "This class doesn't have public initializer!")
+  @objc override dynamic public init()
+  @objc public func makeRenderedFrame() -> BNBSdkApi.RenderedFrame?
+  @objc public func activate()
+  @objc public func present()
+  @objc public func resize(size: CoreFoundation.CGSize)
+  @objc deinit
+}
+public protocol OffscreenPresenting {
+  func present(to: BNBSdkApi.TextureCache)
+  func present(to: QuartzCore.CALayer?, orientation: BNBSdkApi.Orientation, viewPort: CoreFoundation.CGRect)
+  func presentToCIImage() -> CoreImage.CIImage?
+}
+@_hasMissingDesignatedInitializers public class TextureCache {
+  public var pixelBuffer: CoreVideo.CVPixelBuffer? {
+    get
+  }
+  public var orientation: BNBSdkApi.Orientation {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class MetalTextureCache : BNBSdkApi.TextureCache {
+  public var metalTexture: Metal.MTLTexture? {
+    get
+  }
+  @objc deinit
+}
+@objc public protocol InputServicing : BNBSdkApi.AudioCapturing, BNBSdkApi.CameraServicing, BNBSdkApi.CameraZoomable {
+}
+public typealias RotateCameraCallBack = () -> ()
+@objc public protocol CameraServicing {
+  @objc var delegate: BNBSdkApi.InputServiceDelegate? { get set }
+  @objc var isFrontCamera: Swift.Bool { get }
+  @objc var isCameraCapturing: Swift.Bool { get }
+  @objc var isAudioCapturing: Swift.Bool { get }
+  @objc var currentCameraSessionType: BNBSdkApi.CameraSessionType { get }
+  @objc var exposurePointOfInterest: CoreFoundation.CGPoint { get }
+  @objc var flipCamera: Swift.Bool { get set }
+  @objc func startCamera()
+  @objc func stopCamera()
+  @objc func initializeCameraInput()
+  @objc func releaseAudioCaptureSession()
+  @objc func setCameraSessionType(_ type: BNBSdkApi.CameraSessionType)
+  @objc func setCameraSessionType(_ type: BNBSdkApi.CameraSessionType, completion: @escaping BNBSdkApi.RotateCameraCallBack)
+  @objc func setCameraSessionType(_ type: BNBSdkApi.CameraSessionType, zoomFactor: Swift.Float, completion: @escaping BNBSdkApi.RotateCameraCallBack)
+  @objc func configureExposureSettings(_ point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
+  @objc func configureFocusSettings(_ point: CoreFoundation.CGPoint, useContinuousDetection: Swift.Bool)
+  @objc func setTorch(mode: AVFoundation.AVCaptureDevice.TorchMode) -> AVFoundation.AVCaptureDevice.TorchMode
+  @objc func toggleTorch() -> AVFoundation.AVCaptureDevice.TorchMode
+  @objc func initiatePhotoCapture(cameraSettings: BNBSdkApi.CameraPhotoSettings, completion: @escaping (CoreVideo.CVImageBuffer?, BNBSdkCore.BNBFrameData?) -> Swift.Void)
+  @objc func switchCamera(to type: BNBSdkApi.CameraSessionType, completion: @escaping BNBSdkApi.RotateCameraCallBack)
+  @objc func restoreCurrentCameraSessionSettings(completion: (() -> Swift.Void)?)
+}
+@objc public protocol AudioCapturing {
+  @objc func startAudioCapturing()
+  @objc func stopAudioCapturing()
+}
+@objc public protocol CameraZoomable {
+  @objc var currentFieldOfView: Swift.Float { get }
+  @objc var isZoomFactorAdjustable: Swift.Bool { get }
+  @objc var minZoomFactor: Swift.Float { get }
+  @objc var maxZoomFactor: Swift.Float { get }
+  @objc var zoomFactor: Swift.Float { get }
+  @objc func setZoomFactor(_ zoomFactor: Swift.Float) -> Swift.Float
+}
+@objc public protocol InputServiceDelegate {
+  @objc func push(cvBuffer: CoreVideo.CVPixelBuffer)
+  @objc func push(cmBuffer: CoreMedia.CMSampleBuffer)
+}
+@objc public enum CameraSessionType : Swift.Int {
+  case FrontCameraSession
+  case BackCameraSession
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class CameraPhotoSettings : ObjectiveC.NSObject {
+  @objc final public let flashMode: AVFoundation.AVCaptureDevice.FlashMode
+  @available(*, unavailable, message: "Please, do not call this initializer! Use the initializer with parameters instead.")
+  @objc override dynamic public init()
+  @objc public init(flashMode: AVFoundation.AVCaptureDevice.FlashMode)
+  @available(*, deprecated, message: "`useStabilization` argument is now ignored, use other constuctor")
+  @objc public init(useStabilization: Swift.Bool, flashMode: AVFoundation.AVCaptureDevice.FlashMode)
+  @objc deinit
+}
+extension BNBSdkApi.CameraSessionType {
+  public var isFrontCamera: Swift.Bool {
+    get
+  }
+}
+@objc public protocol OutputServicing {
+  @objc func configureWatermark(_ watermarkInfo: BNBSdkApi.WatermarkInfo)
+  @objc func takeSnapshot(handler: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc func takeSnapshot(configuration: BNBSdkApi.OutputConfiguration, handler: @escaping (UIKit.UIImage?) -> Swift.Void)
+  @objc func removeWatermark()
+  @objc func startForwardingFrames(configuration: BNBSdkApi.OutputConfiguration, handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
+  @objc func startForwardingFrames(handler: @escaping (CoreVideo.CVPixelBuffer) -> Swift.Void)
+  @objc func stopForwardingFrames()
+  @objc func stopMuteEffectSound()
+  @objc var recordingState: BNBSdkApi.VideoRecordingState { get }
+  @objc func startRecordingWithURL(_ url: Foundation.URL, delegate: BNBSdkApi.VideoRecorderDelegate)
+  @objc func startRecordingWithURL(_ url: Foundation.URL, configuration: BNBSdkApi.OutputConfiguration, progressTimeInterval: Foundation.TimeInterval, delegate: BNBSdkApi.VideoRecorderDelegate)
+  @objc func pauseRecording()
+  @objc func resumeRecording()
+  @objc func stopRecording()
+  @objc func hasDiskCapacityForRecording() -> Swift.Bool
+  @objc func reset()
+  @objc var videoSize: CoreFoundation.CGSize { get set }
+}
+@_inheritsConvenienceInitializers @objc public class OutputConfiguration : ObjectiveC.NSObject {
+  @objc final public let applyWatermark: Swift.Bool
+  @objc final public let adjustDeviceOrientation: Swift.Bool
+  @objc final public let mirrorFrontCamera: Swift.Bool
+  @available(*, unavailable, message: "Please, do not call this initializer! Use the initializer with parameters instead.")
+  @objc override dynamic public init()
+  @objc public init(applyWatermark: Swift.Bool, adjustDeviceOrientation: Swift.Bool, mirrorFrontCamera: Swift.Bool)
+  @objc public static var defaultConfiguration: BNBSdkApi.OutputConfiguration {
+    @objc get
+  }
+  @objc deinit
+}
+@objc extension AVFoundation.AVAssetTrack {
+  @objc dynamic public var fixedOrientationTransform: CoreFoundation.CGAffineTransform {
+    @objc get
+  }
+}
+extension CoreFoundation.CGAffineTransform {
+  public var orientationInfo: (orientation: UIKit.UIImage.Orientation, isPortrait: Swift.Bool) {
+    get
+  }
+}
+extension BNBSdkCore.BNBFrameData {
+  public class func create(cvBuffer: CoreVideo.CVPixelBuffer, faceOrientation: Swift.Int = 0, cameraOrientation: BNBSdkCore.BNBCameraOrientation = .deg90, requireMirroring: Swift.Bool = false, fieldOfView: Swift.Float = 60) -> BNBSdkCore.BNBFrameData?
+}
+@_hasMissingDesignatedInitializers public class MulticastDelegate<T> {
+  public func add(delegate: T)
+  public func remove(delegate: T)
+  public func invoke(invocation: (T) -> ())
+  @objc deinit
+}
+public func += <T>(left: BNBSdkApi.MulticastDelegate<T>, right: T) where T : AnyObject
+public func -= <T>(left: BNBSdkApi.MulticastDelegate<T>, right: T) where T : AnyObject
+extension ObjectiveC.NSObject {
+  public func performSync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+  public func performAsync(onThread: Foundation.Thread?, block: @escaping @convention(block) () -> Swift.Void)
+}
+@objc extension UIKit.UIImage {
+  @objc convenience dynamic public init?(pixelBuffer: CoreVideo.CVPixelBuffer)
+  @objc convenience dynamic public init?(bgraDataNoCopy: Foundation.NSData, width: Swift.Int, height: Swift.Int)
+  @objc convenience dynamic public init?(rgbaDataNoCopy: Foundation.NSData, width: Swift.Int, height: Swift.Int)
+  @objc dynamic public func makeBgraPixelBuffer() -> CoreVideo.CVPixelBuffer?
+  @objc dynamic public func fixedOrientationImage() -> UIKit.UIImage
+  @objc dynamic public func exportToPath(_ path: Swift.String, fixOrientation: Swift.Bool, completion: ((Swift.Bool) -> Swift.Void))
+}
+extension UIKit.UITouch {
+  @_Concurrency.MainActor(unsafe) public var id: Swift.Int64 {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class VideoExportHelper : ObjectiveC.NSObject {
+  @objc public static func exportVideoFromURL(_ videoUrl: Foundation.URL, pathToExport: Swift.String, completion: @escaping (Swift.Bool) -> Swift.Void)
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class WatermarkDrawSettings : ObjectiveC.NSObject {
+  final public let translatePos: CoreFoundation.CGPoint
+  final public let rotationAngle: CoreFoundation.CGFloat
+  final public let drawRect: CoreFoundation.CGRect
+  @available(*, unavailable, message: "Please, do not call this initializer! Use the initializer with parameters instead.")
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum WatermarkCornerPosition : Swift.Int {
+  case topLeft
+  case topRight
+  case bottomRight
+  case bottomLeft
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@_inheritsConvenienceInitializers @objc public class WatermarkInfo : ObjectiveC.NSObject {
+  @available(*, unavailable, message: "Please, do not call this initializer! Use the initializer with parameters instead.")
+  @objc override dynamic public init()
+  @objc public init(image: UIKit.UIImage, corner: BNBSdkApi.WatermarkCornerPosition, offset: CoreFoundation.CGPoint, targetWidth: CoreFoundation.CGFloat)
+  @objc public init(image: UIKit.UIImage, corner: BNBSdkApi.WatermarkCornerPosition, offset: CoreFoundation.CGPoint, targetNormalizedWidth: CoreFoundation.CGFloat)
+  @objc public init(image: UIKit.UIImage, normalizedPosition: CoreFoundation.CGPoint, targetWidth: CoreFoundation.CGFloat)
+  @objc public init(image: UIKit.UIImage, normalizedPosition: CoreFoundation.CGPoint, targetNormalizedWidth: CoreFoundation.CGFloat)
+  @objc public func drawSettingsWithBoundsSize(_ boundsSize: CoreFoundation.CGSize, outputSettings: BNBSdkApi.OutputSettings) -> BNBSdkApi.WatermarkDrawSettings
+  @objc deinit
+}
+@objc public class OutputSettings : ObjectiveC.NSObject {
+  public var deviceOrientation: UIKit.UIDeviceOrientation
+  public var isMirrored: Swift.Bool
+  public var applyWatermark: Swift.Bool
+  public init(deviceOrientation: UIKit.UIDeviceOrientation, isMirrored: Swift.Bool, applyWatermark: Swift.Bool)
+  public var shouldApplyVerticalFlip: Swift.Bool {
+    get
+  }
+  public var shouldApplyHorizontalFlip: Swift.Bool {
+    get
+  }
+  public var resultVideoTransform: CoreFoundation.CGAffineTransform {
+    get
+  }
+  public var resultImageOrientation: UIKit.UIImage.Orientation {
+    get
+  }
+  @objc deinit
+}
+@objc public enum VideoRecordingState : Swift.Int {
+  case stopped = 0
+  case paused
+  case recording
+  case processing
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+@objc public protocol VideoRecorderDelegate {
+  @objc func onRecorderStateChanged(_ state: BNBSdkApi.VideoRecordingState)
+  @objc func onRecordingFinished(success: Swift.Bool, error: Swift.Error?)
+  @objc func onRecordingProgress(duration: Foundation.TimeInterval)
+}
+public class VideoRecorder {
+  public init(size: CoreFoundation.CGSize, queue: Foundation.OperationQueue, outputSettings: BNBSdkApi.OutputSettings)
+  @objc public func startRecordingWithURL(_ url: Foundation.URL, progressTimeInterval: Foundation.TimeInterval, delegate: BNBSdkApi.VideoRecorderDelegate)
+  @objc public func pauseRecording()
+  @objc public func resumeRecording()
+  @objc public func stopRecording()
+  @objc public func reset()
+  @objc public func pushVideoPixelBuffer(_ buffer: CoreVideo.CVPixelBuffer)
+  @objc public func pushAudioSampleBuffer(_ buffer: CoreMedia.CMSampleBuffer)
+  @objc deinit
+}
+extension BNBSdkApi.PixelBufferYUV.PixelFormat : Swift.Equatable {}
+extension BNBSdkApi.PixelBufferYUV.PixelFormat : Swift.Hashable {}
+extension BNBSdkApi.Player.RenderMode : Swift.Equatable {}
+extension BNBSdkApi.Player.RenderMode : Swift.Hashable {}
+extension BNBSdkApi.Orientation : Swift.Equatable {}
+extension BNBSdkApi.Orientation : Swift.Hashable {}
+extension BNBSdkApi.Orientation : Swift.RawRepresentable {}
+extension BNBSdkApi.CameraSessionType : Swift.Equatable {}
+extension BNBSdkApi.CameraSessionType : Swift.Hashable {}
+extension BNBSdkApi.CameraSessionType : Swift.RawRepresentable {}
+extension BNBSdkApi.WatermarkCornerPosition : Swift.Equatable {}
+extension BNBSdkApi.WatermarkCornerPosition : Swift.Hashable {}
+extension BNBSdkApi.WatermarkCornerPosition : Swift.RawRepresentable {}
+extension BNBSdkApi.VideoRecordingState : Swift.Equatable {}
+extension BNBSdkApi.VideoRecordingState : Swift.Hashable {}
+extension BNBSdkApi.VideoRecordingState : Swift.RawRepresentable {}
