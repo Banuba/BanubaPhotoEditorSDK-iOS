@@ -51,6 +51,6 @@ public class BanubaPhotoEditor {
   public init?(token: Swift.String, configuration: BanubaPhotoEditorSDK.PhotoEditorConfig)
   @objc deinit
   public func presentPhotoEditor(withLaunchConfiguration configuration: BanubaPhotoEditorSDK.PhotoEditorLaunchConfig, completion: (() -> Swift.Void)?)
-  public func dismissVideoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  public func dismissPhotoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
   public func getLicenseState(completion: @escaping ((Swift.Bool) -> Swift.Void))
 }
