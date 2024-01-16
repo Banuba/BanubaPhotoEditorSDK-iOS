@@ -41,6 +41,10 @@ class Eyes {
                     tex_whitening: new modules_scene_index.LUT(Whitening),
                     var_eyes_whitening_flare: this._shared.var_eyes_whitening_flare,
                 },
+                state: {
+                    zWrite: true,
+                    zTest: true
+                },
             }))
         });
         Object.defineProperty(this, "_color", {
@@ -68,6 +72,10 @@ class Eyes {
                 uniforms: {
                     tex_flare: new modules_scene_index.Image(Flare),
                     var_eyes_whitening_flare: this._shared.var_eyes_whitening_flare,
+                },
+                state: {
+                    zWrite: true,
+                    zTest: true
                 },
             }))
         });

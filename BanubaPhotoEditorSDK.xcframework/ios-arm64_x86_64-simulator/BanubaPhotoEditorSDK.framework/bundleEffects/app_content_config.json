@@ -15,7 +15,7 @@
     "neuroBeautyLashes" : [
         "Luxe", "Foxy", "Remy", "Lilly", "Eden", "Classy", "Icon", "Ora", "Extra", "Bella",  "Doll"
     ],
-    "neuroBeautyBlush" : [
+    "blush" : [
         "B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10"
     ],
     "hairColors" : [

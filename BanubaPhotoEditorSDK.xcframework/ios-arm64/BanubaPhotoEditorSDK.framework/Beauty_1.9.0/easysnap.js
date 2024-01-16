@@ -20,6 +20,8 @@ const modules_makeup_index = require('./modules/makeup/index.js');
 const modules_skin_index = require('./modules/skin/index.js');
 const modules_softlight_index = require('./modules/softlight/index.js');
 const modules_teeth_index = require('./modules/teeth/index.js');
+const modules_neurofilters_index = require('./modules/neurofilters/index.js');
+
 
 function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
 
@@ -75,6 +77,8 @@ const Streaks = {
 };
 const CameraDuplicate = new modules_cameraDuplicate_index.CameraDuplicate();
 const BackgroundStreaks = new modules_backgroundStreaks_index.BackgroundStreaks();
+const Neurofilters = new modules_neurofilters_index.Neurofilters();
+
 /**
  * @example
  * ```py
@@ -174,7 +178,8 @@ const setState = modules_index.createSetState({
     FaceMorph,
     Foundation,
     Eyelashes,
-    Foreground
+    Foreground,
+    Neurofilters
 });
 
 const m = /*#__PURE__*/Object.freeze({
@@ -199,6 +204,7 @@ const m = /*#__PURE__*/Object.freeze({
     CameraDuplicate: CameraDuplicate,
     BackgroundStreaks: BackgroundStreaks,
     Foreground: Foreground,
+    Neurofilters:Neurofilters,
     setState: setState
 });
 

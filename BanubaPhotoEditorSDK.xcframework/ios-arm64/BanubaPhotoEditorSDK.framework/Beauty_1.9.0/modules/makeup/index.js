@@ -36,6 +36,7 @@ class Makeup {
                     tex_eyeliner: new modules_scene_index.Image(),
                     tex_lashes: new modules_scene_index.Image(),
                     tex_makeup: new modules_scene_index.Image(),
+                    tex_blushes_mask: new modules_scene_index.Image(Blushes),
                     var_contour_color: new modules_scene_index.Vector4(0, 0, 0, 1),
                     var_blushes_color: new modules_scene_index.Vector4(0, 0, 0, 1),
                     var_highlighter_color: new modules_scene_index.Vector4(0, 0, 0, 1),

@@ -38,9 +38,15 @@ public struct PreviewScreenConfiguration {
   public init(facebookId: Swift.String)
   public init()
 }
+public enum PhotoEditorEntryPoint {
+  case gallery
+  case editorWithImage(UIKit.UIImage)
+  case editorWithURL(Foundation.URL)
+}
 public struct PhotoEditorLaunchConfig {
-  public let hostController: UIKit.UIViewController
-  public init(hostController: UIKit.UIViewController)
+  public var hostController: UIKit.UIViewController
+  public var entryPoint: BanubaPhotoEditorSDK.PhotoEditorEntryPoint
+  public init(hostController: UIKit.UIViewController, entryPoint: BanubaPhotoEditorSDK.PhotoEditorEntryPoint = .gallery)
 }
 public protocol BanubaPhotoEditorDelegate : AnyObject {
   func photoEditorDidCancel(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor)

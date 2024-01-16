@@ -14,15 +14,55 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		y2pzbpLzwWS/pMxahqYx2hSSVGw=
+		COtbAX6geC8VxLmoYFi1QzvKcRw=
 		</data>
 		<key>BackdropCell.nib</key>
 		<data>
-		dgyYDEvzebYPEButWswpe8w8URU=
+		2ii+ci/kLVwO/28Dh/CQhHXW6V0=
+		</data>
+		<key>Beauty_1.9.0/blush/B01.png</key>
+		<data>
+		g6DJDo0iejYOfoW8pyTtkWMRLzQ=
+		</data>
+		<key>Beauty_1.9.0/blush/B02.png</key>
+		<data>
+		x0Paw8wI+SZ1lXO3nAPKQHCu2MU=
+		</data>
+		<key>Beauty_1.9.0/blush/B03.png</key>
+		<data>
+		EFWmfxUVzK96G5/svbWIlhAaqgY=
+		</data>
+		<key>Beauty_1.9.0/blush/B04.png</key>
+		<data>
+		vcRbdjFWWXGjgbpTi36ZQ0ffzrY=
+		</data>
+		<key>Beauty_1.9.0/blush/B05.png</key>
+		<data>
+		LbodqgnIPL5HPea6tfdg3xUpnfQ=
+		</data>
+		<key>Beauty_1.9.0/blush/B06.png</key>
+		<data>
+		lzC5/4bULKGaxWSI+ScHJPGJHrY=
+		</data>
+		<key>Beauty_1.9.0/blush/B07.png</key>
+		<data>
+		r5aqqCBw2ixpqxA+e/AJfZGG+VM=
+		</data>
+		<key>Beauty_1.9.0/blush/B08.png</key>
+		<data>
+		z01XcLqV9yqhtG7bDhFfafMF9Ps=
+		</data>
+		<key>Beauty_1.9.0/blush/B09.png</key>
+		<data>
+		og1nY/4eJ+vMrubkM/qYJMZry0c=
+		</data>
+		<key>Beauty_1.9.0/blush/B10.png</key>
+		<data>
+		QKun8DgDKkH6Kn9GEpKFBlGvlu4=
 		</data>
 		<key>Beauty_1.9.0/config.js</key>
 		<data>
-		y3ef3o7Nli4Oz8LnlJuHha27wl0=
+		y0jidjKbCBjzmUkIn+2742ElxyA=
 		</data>
 		<key>Beauty_1.9.0/config.json</key>
 		<data>
@@ -30,7 +70,7 @@
 		</data>
 		<key>Beauty_1.9.0/easysnap.js</key>
 		<data>
-		O4no8XIWr4RuRMCbmsdQ/csFLPg=
+		g0U/lYd8pcUdu2cGlrdc6Vq1Ozc=
 		</data>
 		<key>Beauty_1.9.0/modules/background-streaks/background.frag</key>
 		<data>
@@ -106,7 +146,7 @@
 		</data>
 		<key>Beauty_1.9.0/modules/eyes/index.js</key>
 		<data>
-		rax6rfFavtTYFJ3+4dWaAEAElUY=
+		T6blNwZnCQkWWp+o9rpma9C5FkQ=
 		</data>
 		<key>Beauty_1.9.0/modules/eyes/lut3d_eyes_high.png</key>
 		<data>
@@ -326,15 +366,27 @@
 		</data>
 		<key>Beauty_1.9.0/modules/makeup/index.js</key>
 		<data>
-		WsKMpJ2jR46B2p5eH9bW2QzKPNA=
+		UTQILhGaAtguP/zvHdD/l0d6vRM=
 		</data>
 		<key>Beauty_1.9.0/modules/makeup/makeup.frag</key>
 		<data>
-		b54WIEWPbYshV1JI47gHNI7LeNw=
+		3QR+aJWG1d/6qwr1ZcOUQGadsMY=
 		</data>
 		<key>Beauty_1.9.0/modules/makeup/makeup.vert</key>
 		<data>
 		KXAyzkCtmjtJWmjTYh4EVK5I3xs=
+		</data>
+		<key>Beauty_1.9.0/modules/neurofilters/filters.frag</key>
+		<data>
+		hMBbTo4uhUK3V+hpO59vVsl1X3U=
+		</data>
+		<key>Beauty_1.9.0/modules/neurofilters/filters.vert</key>
+		<data>
+		X8vKC92Nkh2Eu9LB6QIh+eOYUc0=
+		</data>
+		<key>Beauty_1.9.0/modules/neurofilters/index.js</key>
+		<data>
+		vfm2RGzBMVlqnhEFOOuV+C2pYo8=
 		</data>
 		<key>Beauty_1.9.0/modules/scene/_null_image_.png</key>
 		<data>
@@ -435,6 +487,10 @@
 		<key>Beauty_1.9.0/preview.png</key>
 		<data>
 		cBdHAu9xFdV6dZtIvcldIN2iTBs=
+		</data>
+		<key>BlushCell.nib</key>
+		<data>
+		/Uwx3b5JrJslwArtUNWQUGqIWOs=
 		</data>
 		<key>BundleEffectAssets/beautyeffect_backdrops/Allure_tile.png</key>
 		<data>
@@ -1166,23 +1222,23 @@
 		</data>
 		<key>EditingModePreviewViewController.nib</key>
 		<data>
-		bNax9ycRTfy2No4mHUyptB5bc50=
+		Iu1aOuDXfyEdK6V5aXGxZeIUS6g=
 		</data>
 		<key>EditingModeViewController.nib</key>
 		<data>
-		VMmHYTTc61+qanMXCOtfqOGZUFI=
+		jy0ffUtA8TBcHyLG3AVILZFY8OQ=
 		</data>
 		<key>EffectFeatureCell.nib</key>
 		<data>
-		h8vl5xxZs0OhljN1QZBI/3FJgZQ=
+		vKD9HAqvUMPuyFf6Ld1SW7cT/L4=
 		</data>
 		<key>EffectForegroundCell.nib</key>
 		<data>
-		gx5ysGmWAzwR50RAFbJmaa77HxU=
+		HsvILM0VwwqBvDmRBRpDJPVgKGc=
 		</data>
 		<key>EffectSettingsEditorViewController.nib</key>
 		<data>
-		uLY18qE4Fcn0bGReUWV4mhfoe64=
+		53RqnHH9yRUxQs6peFqBAV+ku+w=
 		</data>
 		<key>ExpiredLicenseViewController.nib</key>
 		<data>
@@ -1190,7 +1246,7 @@
 		</data>
 		<key>EyesColorCell.nib</key>
 		<data>
-		c1kZSK/cUbbOUordoCMH3Rs6i34=
+		kOor5G+08oE3C9zT0STC3cZem6c=
 		</data>
 		<key>FaceDetectionDisabledHintView.nib</key>
 		<data>
@@ -1198,15 +1254,15 @@
 		</data>
 		<key>FilterCell.nib</key>
 		<data>
-		YD79ErbPsS5WaZi+pMRJ0NEJbxU=
+		NgTEJDjW+PtTAOCeqm3kWSesvNs=
 		</data>
 		<key>GalleryViewController.nib</key>
 		<data>
-		FOxXl4BbZ03XUDG0t95uV07LEiQ=
+		cgvN63PXcfNR7qSFrVUo8xDQN1k=
 		</data>
 		<key>HairColorCell.nib</key>
 		<data>
-		UNl9+U90sJ6ziDSteefci753FOQ=
+		JWggJeFDoF60QhFEc9KNkcLzfnU=
 		</data>
 		<key>Headers/BanubaPhotoEditorSDK-Swift.h</key>
 		<data>
@@ -1216,9 +1272,13 @@
 		<data>
 		MUeeeT5oxYlR5VggpWb85R17s4A=
 		</data>
+		<key>ImageAdjustmentFilterCell.nib</key>
+		<data>
+		Pz6mhJboYuvFEDodxFNFDLSPQek=
+		</data>
 		<key>Info.plist</key>
 		<data>
-		u1pu549tBaoF/eY3XnQ6XFg9SpA=
+		scmmb7m51W8NGXQiOaNiY8ozkDI=
 		</data>
 		<key>LimitedAccessCell.nib</key>
 		<data>
@@ -1226,71 +1286,63 @@
 		</data>
 		<key>LipsColorCell.nib</key>
 		<data>
-		Mf822WcgdGurHi0buaLYDoe5kCo=
+		3Dgj6XunON2O9QUELYXsCrKXNM4=
 		</data>
 		<key>MakeupCell.nib</key>
 		<data>
-		uG+lgv1u430x9whWZMmM2FafVvA=
+		dR8tT28wjfL/A3oDwiyKYivYh5E=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		Jf7vr1rmirByAa9EFgj8gJe54EU=
+		KuS4jekOF9kmfpPecs08UQHe7E0=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		OQIo9WwW2fEuvam9hlhXCiUfyUI=
+		bXbMJSOUuI8iDajD+syJ5w7lyRU=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dX/fINOMbaFHrjdaRvaC+kQ0yZk=
+		xNc1pO+c26eUIkctM9SUufJJZuw=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		OQIo9WwW2fEuvam9hlhXCiUfyUI=
+		bXbMJSOUuI8iDajD+syJ5w7lyRU=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		FV7tX9IaJAttiU04Wryw8BRxyY8=
+		rKP32h63byCdsHYntw6a7gBVYJo=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		Jf7vr1rmirByAa9EFgj8gJe54EU=
+		KuS4jekOF9kmfpPecs08UQHe7E0=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		cBBOjdxMErfKoCSZ5NTvBcODxgg=
+		FOyZjNe7aRypmFU5qZ6ZNPVyyd8=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		pPxsj0dXnxdptWNQ/ElUEOJtSiQ=
+		fsJ4n9V51XCYFLiinHMzi5Uf+2k=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		cBBOjdxMErfKoCSZ5NTvBcODxgg=
+		FOyZjNe7aRypmFU5qZ6ZNPVyyd8=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		gR5qm+Qpw7mpi8QNRyWk1U6QQLo=
+		jQglf1tUjF2f35pkZ4HHUkq8d3c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		3Hjgs7cWchGmv5Ayzsa87INKxDo=
 		</data>
-		<key>NeuroBeautyBlushCell.nib</key>
-		<data>
-		QBWRfV5LtHvBowNI9mF3GusOW8g=
-		</data>
-		<key>NeuroBeautyFilterCell.nib</key>
-		<data>
-		04WiPMxywKOQABTeuixvIC10NN8=
-		</data>
 		<key>NeuroBeautyLashesCell.nib</key>
 		<data>
-		O7XDN3ipqYcxOM8amp+6M8NOiIc=
+		aY1vdpa9F9KAvpRkjpVZ8CGn4q0=
 		</data>
 		<key>NeuroBeautyLutCell.nib</key>
 		<data>
-		Kq7VbM0RYjQ8UJs9Xglk9UWVUtU=
+		2rniCr+GlURrMDR/g0OjuLPByUk=
 		</data>
 		<key>TextOverlayEditorView.nib</key>
 		<data>
@@ -1300,601 +1352,13 @@
 		<data>
 		fVkU9RvwbmAV3k+l4sdJTUd+65g=
 		</data>
-		<key>bnb-resources/MoMoFRX/edgetopology1.ef.i16</key>
-		<data>
-		4dcgk9nb7mI7TRc1KvT2Po33rJA=
-		</data>
-		<key>bnb-resources/MoMoFRX/edgetopology1.ev.i16</key>
-		<data>
-		yuDD1cCqRVCqp7bS7unhlshd5uU=
-		</data>
-		<key>bnb-resources/MoMoFRX/head.3308.DA.c30.tm.pca2.86.blendshapes.fp16</key>
-		<data>
-		Enn3UNKtprY6nBaQnLXKeda8jjE=
-		</data>
-		<key>bnb-resources/MoMoFRX/head.3308.DA.c30.tm.pca2.86.means.fp16</key>
-		<data>
-		cElzClkhE752eqskg54diDRW9M0=
-		</data>
-		<key>bnb-resources/bnb_js/.empty</key>
-		<data>
-		u7jRdITgBOKmzMkmWtldv1oH6vM=
-		</data>
-		<key>bnb-resources/bnb_js/background.js</key>
-		<data>
-		gSyH+XfyIwfY/OUtqPgtIwq3IT0=
-		</data>
-		<key>bnb-resources/bnb_js/console.js</key>
-		<data>
-		D5vOTdTAsw8BO+Jf35c1iTyrevw=
-		</data>
-		<key>bnb-resources/bnb_js/global.js</key>
-		<data>
-		WPTnMSAYdtRoiINonOIW5Oo5gYQ=
-		</data>
-		<key>bnb-resources/bnb_js/legacy.js</key>
-		<data>
-		K5xeKNKbH5zTxaexwPdOkuOlfDY=
-		</data>
-		<key>bnb-resources/bnb_js/light_streaks.js</key>
-		<data>
-		BpZu77n4A3szL/eXwAGvkCnWXKI=
-		</data>
-		<key>bnb-resources/bnb_js/timers.js</key>
-		<data>
-		3uhZqixNhTpROhTDRr6VQNGpA+g=
-		</data>
-		<key>bnb-resources/bnb_shaders/.empty</key>
-		<data>
-		Tt+9oPZgAiOWgr3pvTFdxnVzlw0=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/anim_transform.glsl</key>
-		<data>
-		BMKDORWkoZALOfMkgR+tF994mGI=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/color_spaces.glsl</key>
-		<data>
-		39hCUzh8xOZGV1aF+dgSfSDk480=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/decode_int1010102.glsl</key>
-		<data>
-		ZPoySUUYV/kTjVp91j3eIpJITVc=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/get_bone.glsl</key>
-		<data>
-		eJwE8sLyQryoYOwolJxG7BSV0nM=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/get_transform.glsl</key>
-		<data>
-		909t0NDVP1CT9QRpLT4dgImFiis=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/glsl.frag</key>
-		<data>
-		nJRxRcT28f4nFVGXJfOHdCK3fWM=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/glsl.vert</key>
-		<data>
-		MXskyssAs67YPtwhltUr78+Ve/I=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/apply_light_streaks.frag</key>
-		<data>
-		ypp/Y/VGP6ldKMUQsMvaLRxFcE4=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/apply_light_streaks.vert</key>
-		<data>
-		xAlgNGbHsKVpJyH8OIibuBR9pAE=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph.frag</key>
-		<data>
-		9ImadhtOciD94FQ/VGkpCqTlsF0=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph.vert</key>
-		<data>
-		F2b3BCYUIbRJFxnYB0PSwZsW6/U=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph_fisheye.frag</key>
-		<data>
-		9ImadhtOciD94FQ/VGkpCqTlsF0=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph_fisheye.vert</key>
-		<data>
-		ACYInei2sj4k+s/ZjhV7f7oj8Ic=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/beauty_morph.frag</key>
-		<data>
-		xxjJS2dJq+1XbRoeaASbMja/jh8=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/beauty_morph.vert</key>
-		<data>
-		f5B6WXuvblsxmYEZhNaWRjC3IXs=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_downscale.frag</key>
-		<data>
-		J5UHtYMPKB3V9bvVTn3fimWNSmQ=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_downscale.vert</key>
-		<data>
-		ZHsP/CRc3raAJ6nt6YUn8cFABBM=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale.frag</key>
-		<data>
-		cVsIU8D9xixce6i4KfMW2L/0gc0=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale.vert</key>
-		<data>
-		Q1X6iWcmCv3D2pKRRt0val/H32k=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale_apply.frag</key>
-		<data>
-		8QoN5b9G7KDMZfZlc40sPfN2gmA=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera.frag</key>
-		<data>
-		dpYn2lMvNb8kFck6jbCyHPj/2TU=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera.vert</key>
-		<data>
-		iSWnIAv6vP6kl8oQU6ul/vq2L90=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera_bgmask.frag</key>
-		<data>
-		X5gWMxEah3Dg64o6EK7RUZt7o/I=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera_bgmask.vert</key>
-		<data>
-		apy2x72uII9CZKYWtM7qII6rfwc=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/copy_pixels.frag</key>
-		<data>
-		UBDkb+AbCqAU7YxIv2UNA6ju5VY=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/copy_pixels.vert</key>
-		<data>
-		xAlgNGbHsKVpJyH8OIibuBR9pAE=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_0.frag</key>
-		<data>
-		3biTXT2kPWE1GOrNiDKGuLlSjuw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_0.vert</key>
-		<data>
-		8jBPUGs8Ahf5w38jxc9I/34H8Zo=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_1.frag</key>
-		<data>
-		3biTXT2kPWE1GOrNiDKGuLlSjuw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_1.vert</key>
-		<data>
-		lujhOPYYWxQi7NTyKTxwfOjkWsU=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_2.frag</key>
-		<data>
-		3biTXT2kPWE1GOrNiDKGuLlSjuw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_2.vert</key>
-		<data>
-		QuDValuzXiaWu03nz7j7iGWT+CY=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_3.frag</key>
-		<data>
-		3biTXT2kPWE1GOrNiDKGuLlSjuw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_3.vert</key>
-		<data>
-		CTdF6+iQ4Upw6heYYNF/OPqJtFE=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf.frag</key>
-		<data>
-		me3evr6yPJBc+nT6zFJBvgxjhVk=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf.vert</key>
-		<data>
-		uHKw5SffuRavz9IjHCS0oTVKQ6Q=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_spec_gloss.frag</key>
-		<data>
-		QHHR2qHMwBAHlaoYCCeuQOtytAA=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_spec_gloss.vert</key>
-		<data>
-		uHKw5SffuRavz9IjHCS0oTVKQ6Q=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_transmissive.frag</key>
-		<data>
-		gpKeAFfX98uGvZOWxoBl0GKVEcA=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_transmissive.vert</key>
-		<data>
-		hdHVlg/XRq8hh4W97b9lgivUbTQ=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/init_light_streaks.frag</key>
-		<data>
-		wIKHNLSZ0yHS6badzrwBD/UbGhU=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/init_light_streaks.vert</key>
-		<data>
-		xAlgNGbHsKVpJyH8OIibuBR9pAE=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/mesh_morph.frag</key>
-		<data>
-		xxjJS2dJq+1XbRoeaASbMja/jh8=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/mesh_morph.vert</key>
-		<data>
-		mEK5I5QXm+7ZndEbIa7s/USyvMg=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_apply.frag</key>
-		<data>
-		+uoAaB5oG8M31BNoF9rzsjpqCeg=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_apply.vert</key>
-		<data>
-		FAilkZ87N7i0nEC+cG2xLiDiSuw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_blur.frag</key>
-		<data>
-		0Ox8YT4C6sgWqJceTyuAXQlUWZw=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_blur.vert</key>
-		<data>
-		yiGQr/ieXO7UAIsVvHZ2zx97ZUA=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/retouch.frag</key>
-		<data>
-		jPg8uvGgyRrDMY9BzxzJWRDMy4A=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/retouch.vert</key>
-		<data>
-		8BbOla1r22FLyjyy4aBcQJ3ItXY=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/static_pos.frag</key>
-		<data>
-		QuGvhhxuAT1oBNe72JVkNE2NfNg=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/static_pos.vert</key>
-		<data>
-		qZH6G18g2sCI56elRzDHEJDTlPc=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/uv_morph.frag</key>
-		<data>
-		9ImadhtOciD94FQ/VGkpCqTlsF0=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/uv_morph.vert</key>
-		<data>
-		ACYInei2sj4k+s/ZjhV7f7oj8Ic=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/vbg.frag</key>
-		<data>
-		GXAphRxmMWvOCEtgk44vWyR7lGk=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lib/vbg.vert</key>
-		<data>
-		0hiThC1sNB7VKeCElClIhXIFCP8=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/lut.glsl</key>
-		<data>
-		vcA5tjKfpGKMQ0QeNuAFEQ8Roxo=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/math.glsl</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/matrix_operations.glsl</key>
-		<data>
-		uMHdyoll8rjfJqI5O1ZQjEvPU7E=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/morph_transform.glsl</key>
-		<data>
-		TYh7PIURseZ1wm5snUtR2NXwlP4=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/quat_rotation.glsl</key>
-		<data>
-		ly+fTYKgeCoLxZpgIs6ZI2Drslg=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/sample_camera.glsl</key>
-		<data>
-		/kMrcpVF+MIdignyryoIfYE2Bnk=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/samplers_declaration.glsl</key>
-		<data>
-		UC5easogK/FmCIT/EjDj6HkQo0U=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/texture_bicubic.glsl</key>
-		<data>
-		/CtOfVaqUnM4xcmya1VpObNMMTs=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/textures_lookup.glsl</key>
-		<data>
-		50H4hGnTusNswwJiAb+RaRaFyEY=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/transform_uv.glsl</key>
-		<data>
-		ljHrwIkXYbznFzG6++lrPPh9Yas=
-		</data>
-		<key>bnb-resources/bnb_shaders/bnb/version.glsl</key>
-		<data>
-		aR7cHrRbaePRYldN91wwfqerd/k=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		5FQyaoo6nH1qAtS4zHk0WJndqnw=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/coremldata.bin</key>
-		<data>
-		XIJ/ELmJnFc1k12HAkzWxe9qgOk=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/metadata.json</key>
-		<data>
-		tlx0KL96LuP7npfLtXpkeSOh3qY=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.net</key>
-		<data>
-		laYNPk97QZk0yFT8ya3OwbWFME8=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.shape</key>
-		<data>
-		smh0yjLdUvKp36MbSp5hCRai+2c=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.weights</key>
-		<data>
-		/zF61qte80b0zpyKzmL6xK+guhg=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		uA3l0Th1hUHF8FJlrRRKufqG0ds=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		CQLA5tJuC9hH2njNohPc7IrsJA8=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/coremldata.bin</key>
-		<data>
-		c7DIJQ0qN98GUlUcFaZUVymjrlE=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/metadata.json</key>
-		<data>
-		UQuJ+VNf6oi4HHz+B67ZrTzRTi8=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.net</key>
-		<data>
-		zlKXu6p6EoaB6VLmQfN/J+Vi6FI=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.shape</key>
-		<data>
-		smh0yjLdUvKp36MbSp5hCRai+2c=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.weights</key>
-		<data>
-		PzSVlRvjtceAsnMNr43MAJj/KzU=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		uA3l0Th1hUHF8FJlrRRKufqG0ds=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		Yym5wb7XsPhNujIz5Hqq3E+CFgk=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/coremldata.bin</key>
-		<data>
-		XDN9qsxyvLOaHkjxnh7wR9+YPWQ=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/metadata.json</key>
-		<data>
-		pLuuR1HjLMWqmzK+StpzV4l2gQk=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.net</key>
-		<data>
-		mZDavK4uYdZXCdAgn47m0+N75nQ=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.shape</key>
-		<data>
-		6NIf7qoqpbeZFk3f4a09Tu6dTNU=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.weights</key>
-		<data>
-		SQGr+t3R7pZ2HsEgdeITqcefiuU=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		uA3l0Th1hUHF8FJlrRRKufqG0ds=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/coremldata.bin</key>
-		<data>
-		18zl8gSIBKBWoAHz418BdxAkGfw=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.net</key>
-		<data>
-		filQ2E6R7g/yYZaoHBeL+Q1Cod8=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.shape</key>
-		<data>
-		q0+lOKdbtIF83w4Lg7uj4DcacoQ=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.weights</key>
-		<data>
-		cqWef1yvyiHXvpfLTgHINVyE/gY=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		3oqEe/+MND1puFOiFebud17y75Y=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		aCXea9VmUwEsXZdStChZbYwiOFA=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/coremldata.bin</key>
-		<data>
-		dxHye5cjU4ci/wMAAj4Qn8w5ecQ=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/metadata.json</key>
-		<data>
-		W/MHreMOwS/zs1JrVrp2HyQKOBI=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.net</key>
-		<data>
-		PKxoFBI4KSRCwagoZrrURqx8MlA=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.shape</key>
-		<data>
-		sBO73i8+Rx4I+J07UiQCL2DeBfw=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.weights</key>
-		<data>
-		Fm/jQqE1SfghdLB65nxC8d0EEHY=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		uA3l0Th1hUHF8FJlrRRKufqG0ds=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/analytics/coremldata.bin</key>
-		<data>
-		B4MkD3+UKNIVuCMM3ZLOPkTqBJA=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/coremldata.bin</key>
-		<data>
-		KYzOt+0Dpspr4Y7pRrv1FmSyEfo=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/metadata.json</key>
-		<data>
-		kCk+BHqnKt8DeQ+3f+9uVzvH7ic=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.net</key>
-		<data>
-		Tom10KIJ+z6UQysasjno/CXa4OE=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.shape</key>
-		<data>
-		P1+M0YZFKGMwwBINcZ3PxtPvPNg=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.weights</key>
-		<data>
-		0PFF1+64MwrDKLX7uXFQrBJDf6I=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		uA3l0Th1hUHF8FJlrRRKufqG0ds=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/coremldata.bin</key>
-		<data>
-		ZF025hvazExDN/oQ/IFk3owklwk=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.net</key>
-		<data>
-		jJWyWSoap4mxnIFcTgsyBHsElGI=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.shape</key>
-		<data>
-		tn8jzDuvST87R7pblS3zC1ETEW4=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.weights</key>
-		<data>
-		wJ27hCSb0MvpU3INXUfM03caefU=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model/coremldata.bin</key>
-		<data>
-		yNfQ7w7t+oLS6hqlkoRbmm1LArc=
-		</data>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<data>
-		4SnyfFEDvFzES83woV4WDURQZv8=
-		</data>
-		<key>bnb-resources/flow/face_detector_offline.tflite.bbin</key>
-		<data>
-		xVZf5pg/oK8BEYHCj72VjmKlojs=
-		</data>
-		<key>bnb-resources/flow/face_detector_online.tflite.bbin</key>
-		<data>
-		fSxZIOmfh3QFr7NbTKpqgzsZ3VY=
-		</data>
-		<key>bnb-resources/flow/frx_prior.tflite.bbin</key>
-		<data>
-		EJxP5zQs452mKFCBWyTFRtgspmc=
-		</data>
-		<key>bnb-resources/flow/landmarks_224.tflite.bbin</key>
-		<data>
-		n/YxIx1CjsYDIWwl4TiEYVLeIpo=
-		</data>
-		<key>bnb-resources/flow/landmarks_contour_filter.tflite.bbin</key>
-		<data>
-		JXZyqlr43j7/O0jaEBnYrV7gZ0w=
-		</data>
-		<key>bnb-resources/flow/landmarks_contour_prior.tflite.bbin</key>
-		<data>
-		BcykXkejpmtP6ITV89DdpomS160=
-		</data>
-		<key>bnb-resources/flow/landmarks_ears.tflite.bbin</key>
-		<data>
-		IDW6llxllActnMfBJfUo1+nC/gM=
-		</data>
-		<key>bnb-resources/flow/landmarks_eyes.tflite.bbin</key>
-		<data>
-		fwavaPRRxZN7ve2dAI9AJKyimWk=
-		</data>
-		<key>bnb-resources/flow/landmarks_lips_fast.tflite.bbin</key>
-		<data>
-		7RWLJlHd6aBMFzejCKliiohMfuk=
-		</data>
-		<key>bnb-resources/flow/landmarks_lips_filter.tflite.bbin</key>
-		<data>
-		r/j3wJz1PGw5gtlojve32HxAyq8=
-		</data>
-		<key>bnb-resources/flow/lips_segmentation.tflite.bbin</key>
-		<data>
-		Qb8XougUKeawUD+Ko1E25Sd9xCE=
-		</data>
-		<key>bnb-resources/flow/vision_gelu_tanh_float16.tflite.bbin</key>
-		<data>
-		QasTu9mxORl4Ur8XHqS0Md/BO1o=
-		</data>
-		<key>bnb-resources/frx/frx.js</key>
-		<data>
-		NFfhtaOS5MCk3LioMmIjXCMED9Y=
-		</data>
-		<key>bnb-resources/resources-versions.txt</key>
-		<data>
-		SAjgA5epnhacRcsiJzKKEcV4V9A=
-		</data>
-		<key>bnb-resources/watermark.png</key>
-		<data>
-		Vo2SsKfoLurWA0MqHYDDPADgpp4=
-		</data>
-		<key>bnb-resources/watermark_blurred.png</key>
-		<data>
-		ww75OHHcRiTevLNIfj4WOvS+wrU=
-		</data>
 		<key>bundleEffects/app_content_config.json</key>
 		<data>
-		FLAG8nJbSMeaDJEKjdF4s7EiFFA=
+		tKe8QT2pExblLjtNCWxv6UI4uf8=
 		</data>
 		<key>bundleEffects/effects_content_config.json</key>
 		<data>
-		rP//pf6VL4W7ftvdzTm9oem3K1s=
+		4jTWcsa95kNXZ5rubd4hvsTseDc=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -1917,21 +1381,91 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mR8ZpKpOOO9y5YeBGDzuq4nWV8wFbv3bhisE3iSL2Ug=
+			MktUSyS79ml27KcB85BXjqqZIJnGGfhZjjTuI49TPLc=
 			</data>
 		</dict>
 		<key>BackdropCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZfU7JZ53AIhAbbeUevHhxVfb5ConrHqFtrsYJBLGbPg=
+			DQEwNz5/JmeAdR0/4ATHTvQ2Yluy5lGTzgHxqjG9nvQ=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B01.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qzZ4LzbjW1rg/QzJ/KGS/OP6PsrnPFAefoL1zAThIos=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B02.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YFguksWFTfNK6fmVTl+4s/mPdBLlAkrd2XVLIGN2o20=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B03.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			OFx1fLlbb0EUMKwT//d/F0KpjoUuHM54Rpk4c7G4F/g=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B04.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			pqzji6eWqIKRxr6PLQ4wDV6vKsqU3Djk/wl4sgdk9RU=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B05.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			y6qB6dMuLva/a9Pq8V9bdvgYwQB6GslSx3tPM4mUQ9w=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B06.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1c+hylpecsuTr005ybq7O8FU1Ys/b6pM2Np8/VEZDEA=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B07.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			yhEy5nxBL2jNmAD1V4gLLxUYTzbncv6tHXZqE4gKgAg=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B08.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4EtBX/F8AMrFhRaXh1iLY4Z+XCfV6JBeW2J0YHz21Rc=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B09.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			KW/UIz6Wmz7oxw/XOleTzgIpTXq2qHVLj3kPT0BwrU0=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/blush/B10.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8rTZQX+HAtPBbROh/0BVEGYqlGFNxRpD+OKV3DceuyU=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/config.js</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9r1XjjI9zT43dE9u5oHfCJMAe2H+UB3q/vX2vzi+iCg=
+			3MXXIh6ygyfjCDh+Rwx6r9p2M9+4hxHoksTcUzEk1ig=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/config.json</key>
@@ -1945,7 +1479,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			R0I3jxHy6+Ry2C0rg7Qx056JrstTTNkeRIrIpqAwLjk=
+			afQ1XGVynYwLFtY8ariOi9pxTXGh1X6SVSEpHsMwxlc=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/modules/background-streaks/background.frag</key>
@@ -2078,7 +1612,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			De+QiOcexn3SjHTJamCIADENssm1pojUsBCBUXGkers=
+			LRPK4AuZVO+oIx61WT2BCASSucKD2K76Js3dfau1waQ=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/modules/eyes/lut3d_eyes_high.png</key>
@@ -2463,14 +1997,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			70adgRj6S5n7ePsznG+zVyKtG5yneQjMtYHJll8tqco=
+			DPok96RsFgiCE6M6TMLGA4CVGVWG0OWCu+NeYpnFnFM=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/modules/makeup/makeup.frag</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			94WSD38qt733jZHWYYp8f/xe+zclwZ/B/PzGRvEh4Pk=
+			nuuMU3XzG8Ueg7a9ZM93NikX1MG7zv+tkJiodSPySwQ=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/modules/makeup/makeup.vert</key>
@@ -2478,6 +2012,27 @@
 			<key>hash2</key>
 			<data>
 			jWhYW+nG5GHpc5gwq6cWHRo+p8Qv9YOne2jzCIIoKZo=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/modules/neurofilters/filters.frag</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RM5Buuhbp61vqe7cu2uRLoE7+TPQD8rzH7vbtBSXZGc=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/modules/neurofilters/filters.vert</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6Lwqbo6tyMC9fRghHD9X5TWyplrG7wSdwqvOEtOJQT4=
+			</data>
+		</dict>
+		<key>Beauty_1.9.0/modules/neurofilters/index.js</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4KSrr07UgIewdZeRvWyWiL6+ZFo7n7TEXRn88rj0xOs=
 			</data>
 		</dict>
 		<key>Beauty_1.9.0/modules/scene/_null_image_.png</key>
@@ -2653,6 +2208,13 @@
 			<key>hash2</key>
 			<data>
 			0/lolhCwQvFP74sWBaHArOnXv2mggkjLMa78MNWUEVw=
+			</data>
+		</dict>
+		<key>BlushCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			AV8RhiRlLo46E29Q2xdlaFVReRAhE0ABetxwHHWANZQ=
 			</data>
 		</dict>
 		<key>BundleEffectAssets/beautyeffect_backdrops/Allure_tile.png</key>
@@ -3933,35 +3495,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			NimBfi9ErhqdoTHSV4uN2ziZJM5rjShhl0AUAxc9Ns0=
+			xAFyFS3mPsltCHpdlR+GMDsLAE6pvNx802C/xd8vCgY=
 			</data>
 		</dict>
 		<key>EditingModeViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cTkTiEULG5SBI61OAgb9fqqIahDObMDIpsc4Hr7B8bU=
+			w5kuaJHKay8e50BKMC72pbmBolC/qa5ZolWx/aIIxyI=
 			</data>
 		</dict>
 		<key>EffectFeatureCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ejDnHc9iP1uQCUkgmPddw1I6g2r13rQI2uTunKUnfS4=
+			Q9bPaVU/GyKJPSLpys9y1+XuScnj6vUBjWtFfmuKmO4=
 			</data>
 		</dict>
 		<key>EffectForegroundCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Bwa/DXa39vDMzvlFIoxuArit6FGNc55pd9TJbBvOhW8=
+			hf8IsEaoyKYbzfGRlndw8FNdEVtaDTdO96dOE3iLAQE=
 			</data>
 		</dict>
 		<key>EffectSettingsEditorViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DEs1Oc1aDfB5HlyR59Fw/7BiQdeDTPi8X5p3R+3DKJM=
+			KRYLSh9ZxY5gdB83xpWMmPXzWcCsM0y+2mcaIhIJPw4=
 			</data>
 		</dict>
 		<key>ExpiredLicenseViewController.nib</key>
@@ -3975,7 +3537,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			lWafMA0IDt2NnXCGtpM0p0nrOz5OJy0pwhVcSy/LVlM=
+			FfJ/RkrvdhSIjokQtU88F+vcbpIqroxPkXgPfTD0b9o=
 			</data>
 		</dict>
 		<key>FaceDetectionDisabledHintView.nib</key>
@@ -3989,21 +3551,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1VhlfVMktceZO62itLhrCe9PVEAhTVYuTi4WCycIDds=
+			/g2+0FA8XWWWx69b6KImD/lRLb1T3HTIJS++kXL6eu4=
 			</data>
 		</dict>
 		<key>GalleryViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			L4Jx2PYRe8FamaV17/fMif4Ff4z4G51sGjPgLYSQvxc=
+			vloinyePy8vxmfwqIedObgHIWM+EOsG767djZj+lELo=
 			</data>
 		</dict>
 		<key>HairColorCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kdG/bxvfAHTnfKJkg3+YHoNMXqANIZCusi81wkmRQp4=
+			d36Bz+FErv3NRQ8G6vqWhGoxZOtc8JitjMECj87F4OE=
 			</data>
 		</dict>
 		<key>Headers/BanubaPhotoEditorSDK-Swift.h</key>
@@ -4020,6 +3582,13 @@
 			D9BZVUyno1koTl1DHJ6Ka8RdZLdDMfwdqJoW07G2Qm4=
 			</data>
 		</dict>
+		<key>ImageAdjustmentFilterCell.nib</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V8L0Lx9FE0SKTewHoqTI8C4qY09nbI3RSlvbmXJVRc8=
+			</data>
+		</dict>
 		<key>LimitedAccessCell.nib</key>
 		<dict>
 			<key>hash2</key>
@@ -4031,84 +3600,84 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			kGyY+V1W6unaSCOTnLMDaXctVyNTmXClccTv4i+YPoc=
+			ugUi5MEM2otQtBxu6lC4MiTeJIEWhxNx/TeTho30fU8=
 			</data>
 		</dict>
 		<key>MakeupCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XLAuT0wMMl9tQMXyQ1sCNjFZZZogBhRlJvhzli85jzQ=
+			H9loCkhXq1srWpLl7YBKOU/+iP+v8J7l8nG3AQm/FsA=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHOr9nXDwIKOPkIpo13xr1ZpOzuUCEInFvtkhTXWjWg=
+			bd5Ji6JEDSkEHWtdBB/ghFiWriaMmeScwYeYkclwU8I=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjuaBKDEBtZW5AiIQX7iQ9z/zs6Hu47gTidM7WK8Z78=
+			2kDH8rVP4mVN4R62HwFG4Xow0R44Y68Wk216C5whHSI=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1S2yQ80MnLHWsptWm9dq6IOsrl3O85jMXpjS2krzlpk=
+			3X3RKyQamxdKuxp+Ox36u2LnDn9WrGlEj4Y94a/N7o4=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TjuaBKDEBtZW5AiIQX7iQ9z/zs6Hu47gTidM7WK8Z78=
+			2kDH8rVP4mVN4R62HwFG4Xow0R44Y68Wk216C5whHSI=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			j9JwtDE5y3L0BjbT7QnX2MlRDiSy2WQvVYFMl9eSUpk=
+			vWrXRRgTaL1YeuD15jsiPlcL/p+qM0UppNyq7VLzfFA=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hHOr9nXDwIKOPkIpo13xr1ZpOzuUCEInFvtkhTXWjWg=
+			bd5Ji6JEDSkEHWtdBB/ghFiWriaMmeScwYeYkclwU8I=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sg6SN30xy649ydgtBITRJbEnIQmw1RsIkrrS4yCcHWk=
+			t3NiA93KpcNMB6WaQ2OPQKxcaSGiiVWbKueWYMNxwK8=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZyPWcz43dogGZABRiIbu4IH2WagsBCputiIiBOLNHlc=
+			6bgZixRrgbeaAQpSZFDLk8r7h7yN/tKTNBXKFxaNOs4=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sg6SN30xy649ydgtBITRJbEnIQmw1RsIkrrS4yCcHWk=
+			t3NiA93KpcNMB6WaQ2OPQKxcaSGiiVWbKueWYMNxwK8=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fmr6M/o7vSutBiYkLW4Z2IPnZSnfBc0wWvfCPOVMSEI=
+			VUoJYhmnFiOlt3KrZ+iyAyayL5PfmSQZaQQrwxkczpU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -4118,32 +3687,18 @@
 			+SUwOcZaYZshKQsVlrL6jM6/aiSapwollHR0icFTEek=
 			</data>
 		</dict>
-		<key>NeuroBeautyBlushCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CC5i57kkcR9FZtEbNqsbtLmakmIluvARP4lMvmKGkpQ=
-			</data>
-		</dict>
-		<key>NeuroBeautyFilterCell.nib</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3LASjSGv1DKFXE4u2ydieuWWvEbiKJrb4JOAoqjpRFo=
-			</data>
-		</dict>
 		<key>NeuroBeautyLashesCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DRFkNwCobozEy3rpcrypYRA7HD3T0/ktk3hUkxcHd5U=
+			PA8YgRya4XcehgDQJ0vsGWnl0Nuld8towUXKtG/8cC4=
 			</data>
 		</dict>
 		<key>NeuroBeautyLutCell.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UkRmBptYXm8pK30vTMhX/n+7IwcND6OJrvfrE4mDSz8=
+			gxAwJXg+Sc2Un2PM2YJCfwEfCuiaQPwHmdd/2TbaKJU=
 			</data>
 		</dict>
 		<key>TextOverlayEditorView.nib</key>
@@ -4160,1047 +3715,18 @@
 			QBXEG4/76k3hYMRpwl7nJ4dSTIQSzyCUbepNwmfe1aQ=
 			</data>
 		</dict>
-		<key>bnb-resources/MoMoFRX/edgetopology1.ef.i16</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LKlWIbdPN6a7svn+3TlcKWZnbDTmoyamZJwYgkVITV4=
-			</data>
-		</dict>
-		<key>bnb-resources/MoMoFRX/edgetopology1.ev.i16</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hXCXaaIVZLVQNSxuoI7A4KoGKduuOhSr5oifU0UYPFs=
-			</data>
-		</dict>
-		<key>bnb-resources/MoMoFRX/head.3308.DA.c30.tm.pca2.86.blendshapes.fp16</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3V09j9ECUt6pESgf99XGXn4by2GkXSjuyX4zOPlrdZM=
-			</data>
-		</dict>
-		<key>bnb-resources/MoMoFRX/head.3308.DA.c30.tm.pca2.86.means.fp16</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lOYftc6rZnlAYdVA8s9pihLkBajRiR7iuFz0Ec9mEOg=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/.empty</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			76Y6vkoaq1fnwgphgMM6xpmsaoHtmvGZ+/T4T0l/ROY=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/background.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3RKmjN8xnxTvf1+eiVai0ZJHcSBcbR6mXaCU8cA2N3o=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/console.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VVxJpTkpMrel4up9a+aURUHToJkEGnwfsVNZcGs6laQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/global.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UxTzFp9X20Tf0+AjwxpsKcdpWw8/LEoUhoVGgoVTPmM=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/legacy.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BahnUfq8z9SS3S1vIVw91rw0sTv23EUnv5jQJb0eyzY=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/light_streaks.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4W0jlW/5ebJKLb8lJAHM4s/qLyWMjq3JObVwpYNO/B4=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_js/timers.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h+Dx7e1O95ZYJJKsOSn0hgyinTXjDhbFG5aoz2iV/U0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/.empty</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			TwiqXXLtjEEuyWLPQQGgddslvgDlXrr6bHBV1WJWtdY=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/anim_transform.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bifRRholD9NUxP3DEICW7baq9vQhcGr5H1gcBfrpPfE=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/color_spaces.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			xWTFXPMNhiLDXUnosPsYxqFiZH7gZvnkOiJtTPS7IUQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/decode_int1010102.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			U/E2ecUXouHPHqCIoHD4ahNyUgx9dZ/Q75UvIFLV2YU=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/get_bone.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eNawVQUPKGBlWhiEret6waFCJ1T0ix9EtQXI23ibRgY=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/get_transform.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6OMndDYojc8TmejGDZTtVUnFYwUQvUps5MYql6nDhq4=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/glsl.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			FjcS6Vr1R/IoAt7BRBd0tFnFk9HIv6P3VpLqJvW87Vo=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/glsl.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JeHfB0/9dweDIFM2QaRkb3sH9EhjUhCqviQjRLiaLN8=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/apply_light_streaks.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bdp185Jv8Xn3CCt6EByEf/1d64ugRIsxtbwHPYWw5eI=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/apply_light_streaks.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PmxwXK+KBtJIht0OPZGCJHw+Lsh6u6QKnSrs61ciyU0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3h/AHiAQftB4DmPpjYceajD5lVrbuqTrNhnrMarN6NQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			d6q6g427cNSSyBRJg/xZlDtqFtWOcA6bRUYUa79TOJQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph_fisheye.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3h/AHiAQftB4DmPpjYceajD5lVrbuqTrNhnrMarN6NQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/auto_morph_fisheye.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6MQgiQxgZWXccrCQoMJE1JJl2/AUQ0a/pysSc7urLRc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/beauty_morph.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x5pOW9dj2p8gcT7ZcFwD3F8R3AbkNw96nWjZXPAmwTE=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/beauty_morph.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			cURJHUTRr3Kk6dy45MlKb03S4CHEZZFOwx70NerDwqc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_downscale.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			wUAMYTFseAOjS77aOwaf50qN5YA6fvZlTDOYk4Eey5E=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_downscale.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YY75YMzYXmT55HAH895Z/fPcuaIuCIufyUZoU5HoWN0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Uwry7zTglNLEWCcYagixvY4sdjjCQcKjXAtLyv7iIgE=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			hZ8Mp/jfWce8QYWj6CrHwK7sNskm+DWle/Aree1zjzg=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/bg_blur_upscale_apply.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mFPlBXMZTlXy7QC0q6KDHR+akhGAds0nshALbgoETaE=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ecYzAj1emcQCWzysKgdWDQmUa+pXSWrhoYQ1bzHmuuM=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			uuvjlFlwilkmNqcGtsGHDh1iJ1O3yIYlItpdD9Vf5sQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera_bgmask.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LxSdVMCdKnvxGnKsTXM4ADav6eGnH6vNSSEBPZjuhLg=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/camera_bgmask.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			b8w9npK8ILAuGv5mSHbcQZjcMAxOhEtZxX21YfFeXxA=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/copy_pixels.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o5DYcz7f3SPTIhKugwZ3t3INxgJLMIxk/480yHwXKns=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/copy_pixels.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PmxwXK+KBtJIht0OPZGCJHw+Lsh6u6QKnSrs61ciyU0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_0.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CTjGssF19rPeb8MX1dEu4J1AeC8V3BoiJKiqZEUgTmc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_0.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tMfNCeTsR5qO272kVyI80eyV3vPuwVDJ6VkIq8wQ/L0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_1.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CTjGssF19rPeb8MX1dEu4J1AeC8V3BoiJKiqZEUgTmc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_1.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AGnnSuqeprPvnIQFgepdNn8mfEGSltIBMmcOfV4CC1o=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_2.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CTjGssF19rPeb8MX1dEu4J1AeC8V3BoiJKiqZEUgTmc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_2.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Bl6N8vTOH20C4lubZZ72E8P6R4IUPGJUVjqsBabETwQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_3.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			CTjGssF19rPeb8MX1dEu4J1AeC8V3BoiJKiqZEUgTmc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/filter_light_streaks_3.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0YqOyjcrjbrQWQMZRsly8Akmr6PCS5bjDac3WaBQ77k=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			AobDQ0yksFYqZZRKC1+XTBnCc3cpvmGC3FVKapneFxw=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5wf0pU4ynEjQ0yvTV6B+JOQ6xukWsVOgSOZH4LRLkdo=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_spec_gloss.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			UD/BkocQu2eU4By5mUzrePDm/6pqHqOkeTAEM41LLIM=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_spec_gloss.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			5wf0pU4ynEjQ0yvTV6B+JOQ6xukWsVOgSOZH4LRLkdo=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_transmissive.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sqg7ZZELE5GNFmZd4aHxu2tNvkqRDUdnFW2Kh4kv36g=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/gltf_transmissive.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			T3xB0GUviBBr53EM/+Y0/0JOsBEq//FjScGeXtbKLSA=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/init_light_streaks.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OEj+arFh9jGKZU7MinvTvlSTYzZIVehbxeuXnGlbtz8=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/init_light_streaks.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PmxwXK+KBtJIht0OPZGCJHw+Lsh6u6QKnSrs61ciyU0=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/mesh_morph.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			x5pOW9dj2p8gcT7ZcFwD3F8R3AbkNw96nWjZXPAmwTE=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/mesh_morph.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Xb2M+YViM+CCbW1BW3QORguUloEBkZwbpcOnYvdF68E=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_apply.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sB66EmvuGLvgYRuzp5QAAMsrSbWgWLCWIaEQi7H/Ynk=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_apply.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			YtI4wvOZ3Xndf7S/5rXDalxI66wup1+pZeOP4MRJS3I=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_blur.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lNfjJXPnNaIL4Ev0ObOmhaQVr2AH/LJnCtFbb1wyMNk=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/morph_blur.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			w+gcTKfhLaN+YsDeCwts7ora+zBdYKI9hIrNwfbb04o=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/retouch.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G3cAcTsP4I0w95l7Sf/TMLv4Yj8hPDEzKbjnJvb656s=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/retouch.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t7YamuQWJs2Au1S7hAGZvPQHvdhZ7ebnSLUmzdXlyDg=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/static_pos.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JVHgINqXZJNZytnDBfpFD6+gMMaccq1AR0w/zEa/bUM=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/static_pos.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F1mfqU66ArCG2DwMSWHNgo9nsEkWcXWQpxnNU0cLeic=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/uv_morph.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			3h/AHiAQftB4DmPpjYceajD5lVrbuqTrNhnrMarN6NQ=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/uv_morph.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6MQgiQxgZWXccrCQoMJE1JJl2/AUQ0a/pysSc7urLRc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/vbg.frag</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tqT96PVDdgcJD7uUKyKXfFp8WcondgRjwUY6W4NcwBg=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lib/vbg.vert</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			yrE/pJPhvQrKqu43yr0aeIkpKvEYDvadRp2c/iQbStk=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/lut.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			l1tnxN2HWG3EZbfkBbICePp/+cUPnhpukyjSTmN9IA8=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/math.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/matrix_operations.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Tqr0eAYoeUPHgS2R0ZfuTKH8dpgccchKiY0yIz8GWEw=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/morph_transform.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			o6TAImIbF/sp/ZUgBvwuEEgSkWLAwdHObyWX5bivGwY=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/quat_rotation.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			jSWAhaRt97+eFqjPoeJ8bDBX+bJej8XG6uo9Md/rQz4=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/sample_camera.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mdfUpdZBJeSMQ1QygTuGOpwHSV5D1lEHVslUdRIYHCs=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/samplers_declaration.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kR4WKjNywSG52bQXN4XtDEFDM1EywkQ8g2cioo/VRMA=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/texture_bicubic.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ksfIa3gg3dJuEZBoqhULu2YRYiq6P26zwrfAlnWSNuU=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/textures_lookup.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6hO8VQL/9F2m/UticFzc1b+oBH09OPsVfOTorh+8oMc=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/transform_uv.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+GR94TENKiDgPsrVSOg+HPFkPbBw44usPottt03DsWU=
-			</data>
-		</dict>
-		<key>bnb-resources/bnb_shaders/bnb/version.glsl</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			324Mltx5zYVNBENYkUh12QKe8gu/q6soUALAVa2K5Fs=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PjVeaFuBq/ZKPtgk01wgzVit3yDqukkBIHmeQeb52DI=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nqb6KoWbaU6brimXdahMIXmGd4ALxOG679W7dhZ67cg=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WZp4JxbQcC5KUl2u6vuodn2cuxuzB24scwM0ZiopYNs=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gb+xpUIkGkQVCi/o1okCAAAXG6VMnow8RlOjZKiZrKY=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BgTt4Gm3lnoUQD+kmiGPENJLf3fibBkizmEJQRldBFw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			gfE84Zxzp0WCLygfY/+qqWEr+pt0aAsC/i9TK7HYS6U=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGLandscapeLow.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LDTOHfI7g4xavyp/ZDfMo9MGftUJ/yXxHfaxG1grUes=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9P96LOw7/DmVL0icYWtGvExT1M21XMLcYgyZzn8ofBk=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h0+7RsktD9yNml2zPsyL5rdF5lo561/+keiiWZx/I4o=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			m5sEMQ2uSTTRYSvcdkTczx1H8ObdyMUwlQISLQpUOrQ=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			fHma7eS8g84IS0ru7z4/n/WYoEV/nzwkigOAARkCvw0=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			BgTt4Gm3lnoUQD+kmiGPENJLf3fibBkizmEJQRldBFw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			nR7p2CrhXumFiBA8bFW35kJ4Bg2UM8EYq07rZEAIgWQ=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLBGPortraitLow.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LDTOHfI7g4xavyp/ZDfMo9MGftUJ/yXxHfaxG1grUes=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			68S3K3G4tkcSPhN/JZXjkeiq04Gc1FrV80E18ZLfJbs=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			GcJg3uDTCiNyEOPJvfVdfFnrV+418G3U4iZ6T/w4C7I=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			RLLBQIoQvmR9BWJ78x93lEE/1pImYR9VOC2+H2RpFPM=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eaLJIH+AX4XmuaKZoiNUTrkCXW6a67Xu+TdWlqk/mM4=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			efSXBzLGkaYLZI06kQ4H4F02ZR3ZiHKki+8VCZnbVv8=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			t9nZSJToesn4zwLKy1dEvxWmugW5pqEogln1v12D1X8=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLEyes_v3.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LDTOHfI7g4xavyp/ZDfMo9MGftUJ/yXxHfaxG1grUes=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Qr8k4if1TLd6qszwBLVXqpdkXcB9+HTCL8nhjq2zA2Y=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			OGbMBeSM0vnsc/r8Xo5OkfzCFKTTAHagxMjiGZfpOkw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			pGydKkbjy+CiqmZe7ZoJIguLGD+ZbkBKswq4N1HTrYw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			avZXhErbirF1k9eYQdhme68KTXvU+cd8X6jjh9B0bFA=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLFace.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Zmh6rfhivXdsj8GLjp+OIAiXFIVu4jOzkCpZHQ1fKSU=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			F2yf0WFnB5PwVqQ/BcTWvtgTjhxOdlGry650PBYVeXE=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			aYi6NMw+2UULwuLmCxsYllbVGt5pav5T4UWknmsbAZU=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kFjC1CK+683FWpy4U3awaPJFgs3QJDs5/KfACTnAUCI=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			lZIaNlv6fjpLWxAUG44i4vP3TTRkyHVH+TzgkR1b6eA=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4zam6aYTup7tCa52swh83x5Mj2Y7TktTYYxaMJ4KMXA=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Q2r+fUdTWhEzChQK8SAMdVpUd73eQ0vuCehI48aGqYM=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_192x336.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LDTOHfI7g4xavyp/ZDfMo9MGftUJ/yXxHfaxG1grUes=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/analytics/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			14m+agiIaO+Dkj987rskuJ2rryHwWQYac1Vge+urgsk=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			veiG0CZqzaaiEwDj9wg+X6CC+A0E6xRi1/ZKcKGQxyE=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/metadata.json</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			G0Mpf85vJPStGaxFU+8W5VzubxeGp/vG3WYjlaAUCQ8=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bz8RyitPNn8IQEKK9lqUiuttY8PtqG0pRNyD/2PEA9Y=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M7jRehsFUoOIami8/iOPRe8AqdCIo2cgyBeQWYNAoVw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			MAB0Q8bqDTGgTWTKrng3DXD2O5CNgdSC/od1wwI87MU=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLHair_336x192.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			LDTOHfI7g4xavyp/ZDfMo9MGftUJ/yXxHfaxG1grUes=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mXz3vDO+6DinRFwKYcKzwxieASVOFHmW1vSa8S1dlfw=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.net</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			y04PqoTDJ5UVzctRPx8yLCzzMNZDF57gGZgwJlEzmDQ=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.shape</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ZX17R1V49D4qJrGj9nxBSrLt++0gdD/sGvbgywWJhQU=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model.espresso.weights</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			0HfXiNQvkQReJZHxN5HT+0sP7J0ntnS/I/pAo5gu12o=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/model/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9aX9QtFqIDAnmO9u0wmXm0MAPSMg2fDo6pgxqSdZ+0s=
-			</data>
-		</dict>
-		<key>bnb-resources/cml/coreMLSkin.mlmodelc/neural_network_optionals/coremldata.bin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			N0cI//dxndWXnsh11WzSKG9tPPfsMXo7JWMqqyjsN7s=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/face_detector_offline.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			J5bv3XXKj2EyJImJudULmcBdPi4W9FHAm8wXQ+te0qc=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/face_detector_online.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ekhCedjD4fkUNBGaOjxQLiuzyf3LMlzaqnyWAKAJXqg=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/frx_prior.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			eVPeuHzvZVHwd5xeNObPCZKRs5Le+Xz/5v1FZhVXxQQ=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_224.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			sDg/45pbihE2XmrLvroGv+aq4/Dx0r4SJO+/xj/FeIM=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_contour_filter.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8f8/L6NeACcx+OVv/sBH+jYk+8WB7hbWhB/vuzPzeLQ=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_contour_prior.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			DLMk/MlDpVL6RcLzNV4FvjL/1oxzbwJKn0gperCxa5U=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_ears.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9+5tnWjUApUVxBtlQwJPqSAld9W+liOdAjZS4tOM/mw=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_eyes.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			M2GqkNpMiRe60Fe6YznTBb4yXc8o9f6pDLyQGwqcQHA=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_lips_fast.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			JDRxRtsYZ2qhva/GcuczKTrObdPZMPTiu88hL6wHKyI=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/landmarks_lips_filter.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			j3UAwnrmLNmhMrQ1f4PRhIXY1qqewvsMgEgT5lpoERM=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/lips_segmentation.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ztksW6COotgXVEKGNEY59yoNMvNAKRx2uXjZH93549g=
-			</data>
-		</dict>
-		<key>bnb-resources/flow/vision_gelu_tanh_float16.tflite.bbin</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			PhV8zV8kVGxQoWGsyvIJ0lP8Eg+T5bnK1w5HNVFp+KI=
-			</data>
-		</dict>
-		<key>bnb-resources/frx/frx.js</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			tzg/DKXkpDdH/wyepT5WF6iJ/T+bv7Y8nv3HHfvdNvY=
-			</data>
-		</dict>
-		<key>bnb-resources/resources-versions.txt</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			bm3oW/2FZo8x4YcGNA4RgkenvpUoLA7X7PSVYoqe9OU=
-			</data>
-		</dict>
-		<key>bnb-resources/watermark.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EM3Wj3/G5VbssK9Nun8+c54VNhV5u6vh19NOkYCmr1Y=
-			</data>
-		</dict>
-		<key>bnb-resources/watermark_blurred.png</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			9f4++Igku10UVCZQ+VBcgFNwc077TQnzTB92wfAK9hs=
-			</data>
-		</dict>
 		<key>bundleEffects/app_content_config.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zPflGfzZkxvc0dKERJXkUvjerqYI0+7qVPQ5oBn5Qvg=
+			9uIa4MIXcczR3Eg1Mjzt/dx3dSxUe1GcN7alXE6kyLg=
 			</data>
 		</dict>
 		<key>bundleEffects/effects_content_config.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vhERTygzbxmwey5HozfgPY/VY31qLdZj41M+6lx86Cw=
+			6JA47uaLyxq1eW2oXO6LpUNMBGxiyOLAOjpqlZBx2uY=
 			</data>
 		</dict>
 	</dict>

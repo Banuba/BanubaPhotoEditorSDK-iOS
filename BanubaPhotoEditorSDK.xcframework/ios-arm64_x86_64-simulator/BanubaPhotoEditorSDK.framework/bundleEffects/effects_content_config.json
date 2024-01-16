@@ -108,7 +108,7 @@
         { "id": "Bella" },
         { "id": "Doll" },
     ],
-    "neuroBeautyBlush" : [
+    "blush" : [
         { "id": "B01" },
         { "id": "B02" },
         { "id": "B03" },
