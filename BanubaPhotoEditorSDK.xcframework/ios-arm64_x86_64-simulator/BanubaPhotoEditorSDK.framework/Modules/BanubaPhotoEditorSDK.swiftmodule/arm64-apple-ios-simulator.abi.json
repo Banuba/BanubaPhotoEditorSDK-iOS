@@ -9554,98 +9554,112 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9518,
+      "offset": 7945,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9756,
+      "offset": 9396,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10296,
+      "offset": 9634,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 10763,
+      "offset": 10174,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11831,
+      "offset": 10641,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 11917,
+      "offset": 11709,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 12007,
+      "offset": 11795,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 11885,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 12659,
+      "offset": 12537,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13017,
+      "offset": 12895,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13095,
+      "offset": 12973,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 13367,
+      "offset": 13245,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13417,
+      "offset": 13295,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 13458,
+      "offset": 13336,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 13511,
+      "offset": 13389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13562,
       "length": 5,
       "value": "false"
     },
@@ -9659,623 +9673,616 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 13806,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 14013,
+      "offset": 13891,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 14098,
+      "offset": 13976,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 14528,
+      "offset": 14406,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 14605,
+      "offset": 14483,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 14879,
+      "offset": 14757,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 16249,
+      "offset": 16127,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20079,
+      "offset": 19957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20136,
+      "offset": 20014,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20197,
+      "offset": 20075,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20252,
+      "offset": 20130,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20273,
+      "offset": 20151,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20366,
+      "offset": 20244,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20489,
+      "offset": 20367,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20543,
+      "offset": 20421,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20564,
+      "offset": 20442,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20706,
+      "offset": 20584,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20767,
+      "offset": 20645,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 20822,
+      "offset": 20700,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21524,
+      "offset": 21402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 21654,
+      "offset": 21532,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "Dictionary",
-      "offset": 22046,
+      "offset": 21924,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "Dictionary",
-      "offset": 22369,
+      "offset": 22247,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 22905,
+      "offset": 22783,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 22923,
+      "offset": 22801,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23132,
+      "offset": 23010,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23150,
+      "offset": 23028,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23368,
+      "offset": 23246,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23386,
+      "offset": 23264,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23589,
+      "offset": 23467,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23607,
+      "offset": 23485,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 23818,
+      "offset": 23696,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 24006,
+      "offset": 23884,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 24398,
+      "offset": 24276,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 25240,
+      "offset": 25118,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 25450,
+      "offset": 25328,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 25631,
+      "offset": 25509,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 25771,
+      "offset": 25649,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 26053,
+      "offset": 25931,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 29152,
+      "offset": 29030,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 29160,
+      "offset": 29038,
       "length": 4,
       "value": "16.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "StringLiteral",
-      "offset": 29785,
+      "offset": 29663,
       "length": 43,
       "value": "\"EditingModeInteractor.prepareEffectPlayer\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 30920,
+      "offset": 30798,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 31192,
+      "offset": 31070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 31984,
+      "offset": 31862,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 32306,
+      "offset": 32184,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 32387,
+      "offset": 32265,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 32495,
+      "offset": 32373,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 32548,
+      "offset": 32426,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 32677,
+      "offset": 32555,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 33151,
+      "offset": 33029,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 34374,
+      "offset": 34252,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 34826,
+      "offset": 34704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 35107,
+      "offset": 34985,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 35869,
+      "offset": 35747,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 36024,
+      "offset": 35902,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 36260,
+      "offset": 36138,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 36346,
+      "offset": 36224,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 37546,
+      "offset": 37424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38140,
+      "offset": 38018,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38407,
+      "offset": 38285,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 38434,
+      "offset": 38312,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 39846,
+      "offset": 39724,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41421,
+      "offset": 41299,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41463,
+      "offset": 41341,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41652,
+      "offset": 41530,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 41957,
+      "offset": 41835,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 42042,
+      "offset": 41920,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 42611,
+      "offset": 42489,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "Dictionary",
-      "offset": 42837,
+      "offset": 42715,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 43817,
+      "offset": 43723,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 43941,
+      "offset": 43847,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 44021,
+      "offset": 43927,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 44157,
+      "offset": 44063,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 44236,
+      "offset": 44142,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 44508,
+      "offset": 44414,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 44601,
+      "offset": 44507,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 44618,
+      "offset": 44524,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 44674,
+      "offset": 44580,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 44856,
+      "offset": 44762,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 44973,
+      "offset": 44879,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 46441,
+      "offset": 46347,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 48131,
+      "offset": 48037,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 48152,
+      "offset": 48058,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 48433,
+      "offset": 48339,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 49166,
+      "offset": 49072,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 50860,
+      "offset": 50766,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "IntegerLiteral",
-      "offset": 51053,
+      "offset": 50959,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "BooleanLiteral",
-      "offset": 51525,
+      "offset": 51431,
       "length": 5,
       "value": "false"
     },
@@ -13635,224 +13642,245 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2254,
+      "offset": 2433,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2301,
+      "offset": 2480,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 2491,
+      "offset": 2670,
       "length": 14,
       "value": "\"instagram:\/\/\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 2617,
+      "offset": 2796,
       "length": 14,
       "value": "\"instagram:\/\/\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 2712,
+      "offset": 2891,
       "length": 13,
       "value": "\"whatsapp:\/\/\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 2836,
+      "offset": 3015,
       "length": 21,
       "value": "\"facebook-stories:\/\/\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2892,
+      "offset": 3071,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3626,
+      "offset": 3805,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 3920,
+      "offset": 4099,
       "length": 38,
       "value": "\"instagram:\/\/library?LocalIdentifier=\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4003,
+      "offset": 4182,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "Dictionary",
-      "offset": 4078,
+      "offset": 4257,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 4363,
+      "offset": 4542,
       "length": 60,
       "value": "\"instagram-stories:\/\/share?source_application=\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 4422,
+      "offset": 4601,
       "length": 3,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 4499,
+      "offset": 4678,
       "length": 46,
       "value": "\"User doesn't have instagram on their device.\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4565,
+      "offset": 4744,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "Dictionary",
-      "offset": 4632,
+      "offset": 4811,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4738,
+      "offset": 4917,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 4774,
+      "offset": 4953,
       "length": 45,
       "value": "\"com.instagram.sharedSticker.backgroundImage\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "FloatLiteral",
-      "offset": 4868,
+      "offset": 5047,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "Dictionary",
-      "offset": 5011,
+      "offset": 5190,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 5341,
+      "offset": 5520,
       "length": 26,
       "value": "\"facebook-stories:\/\/share\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 5433,
+      "offset": 5612,
       "length": 45,
       "value": "\"User doesn't have facebook on their device.\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5498,
+      "offset": 5677,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 5573,
+      "offset": 5752,
       "length": 34,
       "value": "\"com.facebook.sharedSticker.appID\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 5627,
+      "offset": 5806,
       "length": 44,
       "value": "\"com.facebook.sharedSticker.backgroundImage\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "FloatLiteral",
-      "offset": 5718,
+      "offset": 5897,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5839,
+      "offset": 6018,
       "length": 3,
       "value": "300"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "Dictionary",
-      "offset": 5987,
+      "offset": 6166,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "StringLiteral",
-      "offset": 6351,
+      "offset": 6530,
       "length": 6,
       "value": "\".jpg\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6372,
+      "offset": 6551,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "FloatLiteral",
-      "offset": 6442,
+      "offset": 6621,
       "length": 4,
       "value": "0.95"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7183,
+      "length": 2,
+      "value": "13"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7205,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
       "kind": "BooleanLiteral",
-      "offset": 6905,
+      "offset": 7609,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ShareService\/ShareService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7691,
       "length": 4,
       "value": "true"
     },
