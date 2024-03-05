@@ -27,6 +27,26 @@ let package = Package(
     .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", from: "1.33.0")
   ],
   targets: [
+    .target(
+      name: "BanubaPhotoEditorSDKWrapper",
+      dependencies: [
+        "BanubaPhotoEditorSDK",
+        "BNBSdkCore",
+        "BNBSdkApi",
+        "BNBEffectPlayer",
+        "BNBScripting",
+        "BNBLips",
+        "BNBHair",
+        "BNBEyes",
+        "BNBBackground",
+        "BNBSkin",
+        "BNBAcneEyebagsRemoval",
+        "BanubaLicenseServicingSDK",
+        .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
+        .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
+      ],
+      path: "BanubaPhotoEditorSDKWrapper"
+    ),
     .binaryTarget(
       name: "BanubaPhotoEditorSDK",
       path: "BanubaPhotoEditorSDK.xcframework"
