@@ -9,7 +9,8 @@ let package = Package(
   products: [
     .library(
       name: "BanubaPhotoEditorSDK",
-      targets: ["BanubaPhotoEditorSDK"])
+      targets: ["BanubaPhotoEditorSDKTarget"]
+    )
   ],
   dependencies: [
     .package(url: "https://github.com/sdk-banuba/BNBSdkCore.git", .exact("1.10.1")),
@@ -46,6 +47,13 @@ let package = Package(
         .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
       ],
       path: "BanubaPhotoEditorSDKWrapper"
+    ),
+    .target(
+      name: "BanubaPhotoEditorSDKTarget",
+      dependencies: [
+        .target(name: "BanubaPhotoEditorSDKWrapper")
+      ],
+      path: "BanubaPhotoEditorSDKTarget"
     ),
     .binaryTarget(
       name: "BanubaPhotoEditorSDK",
