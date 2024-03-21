@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-compiler-version: Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)
 // swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name BNBSdkApi
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AVFoundation
@@ -20,13 +20,12 @@ import UIKit
 import VideoToolbox
 import _Concurrency
 import _StringProcessing
-import _SwiftConcurrencyShims
 @objc public protocol BanubaSdkManagerDelegate {
   @objc func willPresentFramebuffer(renderSize: CoreFoundation.CGSize)
   @objc func willOutput(pixelBuffer: CoreVideo.CVPixelBuffer)
 }
 @_inheritsConvenienceInitializers @objc public class BanubaSdkManager : ObjectiveC.NSObject {
-  @objc weak public var delegate: (any BNBSdkApi.BanubaSdkManagerDelegate)?
+  @objc weak public var delegate: BNBSdkApi.BanubaSdkManagerDelegate?
   @objc public var effectPlayer: BNBSdkCore.BNBEffectPlayer? {
     get
   }
@@ -41,11 +40,11 @@ import _SwiftConcurrencyShims
   @objc public func unloadEffect(effect: BNBSdkCore.BNBEffect?)
   @objc public func currentEffect() -> BNBSdkCore.BNBEffect?
   @objc public func setMaxFaces(_ maxFaces: Swift.Int)
-  @objc public var input: any BNBSdkApi.InputServicing {
+  @objc public var input: BNBSdkApi.InputServicing {
     @objc get
     @objc set
   }
-  @objc public var output: (any BNBSdkApi.OutputServicing)? {
+  @objc public var output: BNBSdkApi.OutputServicing? {
     @objc get
   }
   @objc public var renderTarget: BNBSdkApi.RenderTarget?
@@ -132,8 +131,8 @@ extension BNBSdkApi.BanubaSdkManager : BNBSdkCore.BNBFrameDurationListener {
 }
 public class CameraDevice {
   public typealias Mode = BNBSdkApi.CameraSessionType
-  public var videoDelegates: BNBSdkApi.MulticastDelegate<any BNBSdkApi.CameraDeviceVideoDelegate>
-  public var audioDelegates: BNBSdkApi.MulticastDelegate<any BNBSdkApi.CameraDeviceAudioDelegate>
+  public var videoDelegates: BNBSdkApi.MulticastDelegate<BNBSdkApi.CameraDeviceVideoDelegate>
+  public var audioDelegates: BNBSdkApi.MulticastDelegate<BNBSdkApi.CameraDeviceAudioDelegate>
   public var mode: BNBSdkApi.CameraDevice.Mode {
     get
   }
@@ -198,28 +197,28 @@ public class Stream : BNBSdkApi.Input {
   @objc deinit
 }
 public protocol FramePresentable {
-  static func create(from renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting) -> Self?
+  static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
 }
 extension UIKit.UIImage : BNBSdkApi.FramePresentable {
-  public static func create(from renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting) -> Self?
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
 }
 extension BNBSdkApi.RenderedFrame : BNBSdkApi.FramePresentable {
-  public static func create(from renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting) -> Self?
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
 }
 extension CoreImage.CIImage : BNBSdkApi.FramePresentable {
-  public static func create(from renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting) -> Self?
+  public static func create(from renderTarget: BNBSdkApi.OffscreenRenderTarget) -> Self?
 }
 public class Frame<T> : BNBSdkApi.Output where T : BNBSdkApi.FramePresentable {
   public init(onPresent: @escaping (T?) -> Swift.Void)
-  public func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
   @objc deinit
 }
 public protocol Output {
-  func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
 }
 public class PixelBuffer : BNBSdkApi.Output {
   public init(onPresent: @escaping (CoreVideo.CVPixelBuffer?) -> Swift.Void, orientation: BNBSdkApi.Orientation = .up)
-  public func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
   @objc deinit
 }
 public class PixelBufferYUV : BNBSdkApi.Output {
@@ -235,7 +234,7 @@ public class PixelBufferYUV : BNBSdkApi.Output {
     }
   }
   public init(onPresent: @escaping (CoreVideo.CVPixelBuffer?) -> Swift.Void, pixelFormatType: BNBSdkApi.PixelBufferYUV.PixelFormat = .k420YpCbCr8BiPlanarFullRange, orientation: ImageIO.CGImagePropertyOrientation = .up)
-  public func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
   @objc deinit
 }
 public class Video : BNBSdkApi.Output {
@@ -245,22 +244,22 @@ public class Video : BNBSdkApi.Output {
   public var watermark: BNBSdkApi.WatermarkInfo?
   public init(cameraDevice: BNBSdkApi.CameraDevice)
   @objc deinit
-  public func record(url: Foundation.URL, size: CoreFoundation.CGSize, onStateChanged: @escaping (BNBSdkApi.VideoRecordingState) -> Swift.Void, onFinished: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void, onProgress: @escaping (Foundation.TimeInterval) -> Swift.Void)
+  public func record(url: Foundation.URL, size: CoreFoundation.CGSize, onStateChanged: @escaping (BNBSdkApi.VideoRecordingState) -> Swift.Void, onFinished: @escaping (Swift.Bool, Swift.Error?) -> Swift.Void, onProgress: @escaping (Foundation.TimeInterval) -> Swift.Void)
   public func pause()
   public func resume()
   public func stop()
-  public func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
 }
 extension BNBSdkApi.Video : BNBSdkApi.VideoRecorderDelegate {
   @objc dynamic public func onRecorderStateChanged(_ state: BNBSdkApi.VideoRecordingState)
-  @objc dynamic public func onRecordingFinished(success: Swift.Bool, error: (any Swift.Error)?)
+  @objc dynamic public func onRecordingFinished(success: Swift.Bool, error: Swift.Error?)
   @objc dynamic public func onRecordingProgress(duration: Foundation.TimeInterval)
 }
 extension BNBSdkApi.Video : BNBSdkApi.CameraDeviceAudioDelegate {
   @objc dynamic public func push(sampleBuffer: CoreMedia.CMSampleBuffer)
 }
 extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
-  @_Concurrency.MainActor(unsafe) public func present(renderTarget: any BNBSdkApi.RenderTarget & BNBSdkApi.OffscreenPresenting)
+  @_Concurrency.MainActor(unsafe) public func present(renderTarget: BNBSdkApi.OffscreenRenderTarget)
 }
 @objc public class Player : ObjectiveC.NSObject {
   final public let effectPlayer: BNBSdkCore.BNBEffectPlayer
@@ -291,11 +290,12 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
   @objc deinit
   public func play()
   public func pause()
-  public func use(input: (any BNBSdkApi.Input)?)
-  public func use(outputs: [any BNBSdkApi.Output])
-  public func use(input: (any BNBSdkApi.Input)?, outputs: [any BNBSdkApi.Output])
+  public func use(input: BNBSdkApi.Input?)
+  public func use(outputs: [BNBSdkApi.Output])
+  public func use(input: BNBSdkApi.Input?, outputs: [BNBSdkApi.Output])
   public func load(effect: Swift.String, sync: Swift.Bool = false) -> BNBSdkCore.BNBEffect?
   public func onResize(action: @escaping (CoreFoundation.CGSize) -> Swift.Void)
+  public func onRender(action: @escaping (Swift.Bool, Swift.Int64) -> Swift.Void)
   public func render() -> Swift.Bool
 }
 @objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor(unsafe) public class BaseEffectPlayerView : UIKit.UIView {
@@ -373,7 +373,7 @@ public protocol OffscreenPresenting {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class MetalTextureCache : BNBSdkApi.TextureCache {
-  public var metalTexture: (any Metal.MTLTexture)? {
+  public var metalTexture: Metal.MTLTexture? {
     get
   }
   @objc deinit
@@ -382,7 +382,7 @@ public protocol OffscreenPresenting {
 }
 public typealias RotateCameraCallBack = () -> ()
 @objc public protocol CameraServicing {
-  @objc var delegate: (any BNBSdkApi.InputServiceDelegate)? { get set }
+  @objc var delegate: BNBSdkApi.InputServiceDelegate? { get set }
   @objc var isFrontCamera: Swift.Bool { get }
   @objc var isCameraCapturing: Swift.Bool { get }
   @objc var isAudioCapturing: Swift.Bool { get }
@@ -453,8 +453,8 @@ extension BNBSdkApi.CameraSessionType {
   @objc func stopForwardingFrames()
   @objc func stopMuteEffectSound()
   @objc var recordingState: BNBSdkApi.VideoRecordingState { get }
-  @objc func startRecordingWithURL(_ url: Foundation.URL, delegate: any BNBSdkApi.VideoRecorderDelegate)
-  @objc func startRecordingWithURL(_ url: Foundation.URL, configuration: BNBSdkApi.OutputConfiguration, progressTimeInterval: Foundation.TimeInterval, delegate: any BNBSdkApi.VideoRecorderDelegate)
+  @objc func startRecordingWithURL(_ url: Foundation.URL, delegate: BNBSdkApi.VideoRecorderDelegate)
+  @objc func startRecordingWithURL(_ url: Foundation.URL, configuration: BNBSdkApi.OutputConfiguration, progressTimeInterval: Foundation.TimeInterval, delegate: BNBSdkApi.VideoRecorderDelegate)
   @objc func pauseRecording()
   @objc func resumeRecording()
   @objc func stopRecording()
@@ -578,12 +578,12 @@ extension UIKit.UITouch {
 }
 @objc public protocol VideoRecorderDelegate {
   @objc func onRecorderStateChanged(_ state: BNBSdkApi.VideoRecordingState)
-  @objc func onRecordingFinished(success: Swift.Bool, error: (any Swift.Error)?)
+  @objc func onRecordingFinished(success: Swift.Bool, error: Swift.Error?)
   @objc func onRecordingProgress(duration: Foundation.TimeInterval)
 }
 public class VideoRecorder {
   public init(size: CoreFoundation.CGSize, queue: Foundation.OperationQueue, outputSettings: BNBSdkApi.OutputSettings)
-  @objc public func startRecordingWithURL(_ url: Foundation.URL, progressTimeInterval: Foundation.TimeInterval, delegate: any BNBSdkApi.VideoRecorderDelegate)
+  @objc public func startRecordingWithURL(_ url: Foundation.URL, progressTimeInterval: Foundation.TimeInterval, delegate: BNBSdkApi.VideoRecorderDelegate)
   @objc public func pauseRecording()
   @objc public func resumeRecording()
   @objc public func stopRecording()
