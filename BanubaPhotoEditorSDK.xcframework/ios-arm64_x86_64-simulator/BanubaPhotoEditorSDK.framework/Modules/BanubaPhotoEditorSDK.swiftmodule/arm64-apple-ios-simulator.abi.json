@@ -15194,50 +15194,57 @@
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 2158,
+      "length": 36,
+      "value": "\"Token does not support Face AR SDK\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2120,
+      "offset": 2246,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2146,
+      "offset": 2272,
       "length": 56,
       "value": "\"Your license does not support face recognition feature\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3223,
+      "offset": 3349,
       "length": 41,
       "value": "\"Failed to instantiate UIImage from Data\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3520,
+      "offset": 3646,
       "length": 54,
       "value": "\"Failed to decode image at url. \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3573,
+      "offset": 3699,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4085,
+      "offset": 4211,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4211,
+      "offset": 4337,
       "length": 4,
       "value": "true"
     },

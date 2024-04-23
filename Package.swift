@@ -14,19 +14,19 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/sdk-banuba/BNBSdkCore.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBSdkApi.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBEffectPlayer.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBScripting.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBLips.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBHair.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBEyes.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBBackground.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBSkin.git", .exact("1.12.0")),
-    .package(url: "https://github.com/sdk-banuba/BNBAcneEyebagsRemoval.git", .exact("1.12.0")),
-    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", from: "1.35.0"),
-    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", from: "1.35.0"),
-    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", from: "1.35.0")
+    .package(url: "https://github.com/sdk-banuba/BNBSdkCore.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBSdkApi.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBEffectPlayer.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBScripting.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBLips.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBHair.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBEyes.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBBackground.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBSkin.git", exact: "1.12.0"),
+    .package(url: "https://github.com/sdk-banuba/BNBAcneEyebagsRemoval.git", exact: "1.12.0"),
+    .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", from: "1.35.3"),
+    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", from: "1.35.3"),
+    .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", from: "1.35.3")
   ],
   targets: [
     .target(
