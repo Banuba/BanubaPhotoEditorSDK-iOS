@@ -9371,42 +9371,42 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1147,
+      "offset": 1191,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1484,
+      "offset": 1528,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 1903,
+      "offset": 1947,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2086,
+      "offset": 2130,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2730,
+      "offset": 2830,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/PhotoEditorCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 3381,
+      "offset": 3481,
       "length": 4,
       "value": "true"
     },
@@ -15188,65 +15188,93 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2027,
+      "offset": 2222,
       "length": 41,
       "value": "\"Token does not support Photo Editor SDK\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2158,
+      "offset": 2353,
       "length": 36,
       "value": "\"Token does not support Face AR SDK\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "IntegerLiteral",
-      "offset": 2246,
+      "offset": 2441,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2467,
       "length": 56,
       "value": "\"Your license does not support face recognition feature\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3349,
+      "offset": 3133,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 3913,
       "length": 41,
       "value": "\"Failed to instantiate UIImage from Data\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3646,
+      "offset": 4210,
       "length": 54,
       "value": "\"Failed to decode image at url. \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 3699,
+      "offset": 4263,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4211,
+      "offset": 4775,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 4899,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 4337,
+      "offset": 5177,
       "length": 4,
       "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6084,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/Base\/BanubaPhotoEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 6152,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EffectSettingsEditor\/EffectEditorHandlers\/ForegroundEffectEditorHandler.swift",

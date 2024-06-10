@@ -1278,7 +1278,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		+tQ6stJBxvuDKChaZCr6MhI8H70=
+		48MSRnVaUb9Br/zHs/sE/0p9W1g=
 		</data>
 		<key>LimitedAccessCell.nib</key>
 		<data>
@@ -1294,7 +1294,7 @@
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		hn/Di/sYr0NIMVQSpbEFzMNj5k0=
+		rxZOJWxBvZpLOF6126loN5C/A24=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -1310,7 +1310,7 @@
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		u8IMhRR59zsudrJ6OBQ50u83okc=
+		GsHtm6a+PwjDQ4bXSZlHexaXaGU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -3598,7 +3598,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/qExQoEeYMum70fDJfdBxzP0XpTBCKHa2CNdMtASf6Q=
+			44tXEN9NycmX4CqnXmV/IolHE65hNcQDZUm6NSwQItw=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -3626,7 +3626,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			6eKLXPJvaXKuRW1+Y36tb4VYBKGwM+7pfB4enBq8RKM=
+			bGA9utlaniRMgaWJ01n5Uz5tYPhjpj2iyJWCxNHP3vU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

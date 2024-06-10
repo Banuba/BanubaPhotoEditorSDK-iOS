@@ -294,7 +294,7 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
   public func use(input: (any BNBSdkApi.Input)?)
   public func use(outputs: [any BNBSdkApi.Output])
   public func use(input: (any BNBSdkApi.Input)?, outputs: [any BNBSdkApi.Output])
-  public func load(effect: Swift.String, sync: Swift.Bool = false) -> BNBSdkCore.BNBEffect?
+  public func load(effect: Swift.String, sync: Swift.Bool = false, completion: ((BNBSdkCore.BNBEffect?) -> Swift.Void)? = nil) -> BNBSdkCore.BNBEffect?
   public func onResize(action: @escaping (CoreFoundation.CGSize) -> Swift.Void)
   public func onRender(action: @escaping (Swift.Bool, Swift.Int64) -> Swift.Void)
   public func render() -> Swift.Bool
