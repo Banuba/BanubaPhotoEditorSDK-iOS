@@ -2,7 +2,7 @@
 
 import PackageDescription
 
-let faceARversionRange = Version("1.14.0")..<Version("1.14.99")
+let faceARversionRange: Range<Version> = "1.14.0"..<"1.14.99"
 let package = Package(
   name: "BanubaPhotoEditorSDK",
   platforms: [
