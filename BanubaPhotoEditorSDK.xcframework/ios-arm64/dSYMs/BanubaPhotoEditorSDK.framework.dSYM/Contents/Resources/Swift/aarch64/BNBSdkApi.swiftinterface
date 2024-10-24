@@ -243,6 +243,7 @@ public class Video : BNBSdkApi.Output {
     get
   }
   public var watermark: BNBSdkApi.WatermarkInfo?
+  public var mirrorFrontCamera: Swift.Bool
   public init(cameraDevice: BNBSdkApi.CameraDevice)
   @objc deinit
   public func record(url: Foundation.URL, size: CoreFoundation.CGSize, onStateChanged: @escaping (BNBSdkApi.VideoRecordingState) -> Swift.Void, onFinished: @escaping (Swift.Bool, (any Swift.Error)?) -> Swift.Void, onProgress: @escaping (Foundation.TimeInterval) -> Swift.Void)
