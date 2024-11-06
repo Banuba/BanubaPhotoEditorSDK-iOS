@@ -1,0 +1,59 @@
+{
+    "makeups" : [
+        "Cutie", "Hearts", "Lovebug", "Glossy", "Romance", "Bemine",
+        "Kid", "Tulip", "40s", "Femme", "Drama", "Club", "Swish", "Dewy", "Smoky", "Begonia", "Iris", "Brun",
+        "Bluebell", "Sunset", "Flash", "Mermaid", "Sugar", "Twilight", "Cleo", "Crocus", "Dusk", "Hush", "Fairy",
+        "Carnation", "Flirty", "Karma", "Foxy", "Romp", "Holy", "Malt", "Daisy", "Feast", "Freesia", "Lotus",
+        "Elegant", "Gloom", "Glitz", "Icon", "Galaxy", "Bounty", "Elf", "Peachy", "Stylish", "Fresh",
+        "Misty", "Hippie", "Jasmine", "Dreamy", "Aster", "Coral", "Swan", "Candy", "Xmas",
+        "Snowy", "Crystal", "Queen"
+    ],
+    "neuroBeautyLuts" : [
+        "N50", "N60", "N70", "N90", "B45", "B50", "B55", "B60", "B65", "B70", "B75", "B80", "Y45", "Y55",
+        "Y60", "Y65", "Y70", "Y75", "Y80", "Y95", "R40", "R45", "R50", "R60", "R70", "R80", "R90", "R100"
+    ],
+    "neuroBeautyLashes" : [
+        "Luxe", "Foxy", "Remy", "Lilly", "Eden", "Classy", "Icon", "Ora", "Extra", "Bella",  "Doll"
+    ],
+    "blush" : [
+        "B01", "B02", "B03", "B04", "B05", "B06", "B07", "B08", "B09", "B10"
+    ],
+    "hairColors" : [
+        "Pink", "Avocado", "Brunette", "Blue", "Bisque", "Violet", "Chocolate", "Guava", "Brown", "Fig",
+        "Silver", "Red", "Moro", "Green", "Rufous", "Purple", "Blonde", "Plum", "Mint", "Grape", "Peru",
+        "Cobalt", "Eggplant", "Yellow", "Cherry", "Daino", "Lavender", "Ginger", "Copper", "Rose", "Bambu",
+        "Kiwi", "Goldenrod", "Apple", "Sienna", "Pitaya"
+    ],
+    "lipsColors" : [
+        "Raspberry", "Syrup", "Diva", "Pink", "Nude", "Melon", "Red", "Kiss", "Retro", "Violet", "Taffy",
+        "Brave", "Brown", "Heroine", "Beige", "Lilac", "Night", "Berry", "CafeChic", "Unicorn", "Sahara",
+        "CalmPink", "Cherry", "Muse", "Flirt", "Punch", "Rebel", "Peach", "Candy", "Medusa", "Pearl",
+        "Glintwein", "Disco", "Lollipop", "Bronze", "Mocha", "Mauve", "Belle", "Apricot", "Burgundy", "Honey",
+        "Icon", "Coral", "Angel", "Peony", "Cream"
+    ],
+    "eyesColors" : [
+        "Pacific", "India", "Honey", "Green", "Grey", "Purple", "Blue", "Brown", "Hazel", "Jade", "Emerald",
+        "Sapphire", "Red", "Yellow"
+    ],
+    "backdrops" : [
+        "Candies", "Baubles", "Gifts",
+        "Shore", "Office", "Bouquet", "Butterfly", "Tropical", "Floral", "Letters", "Bokeh", "Lotus", "Glare",
+        "Oranges", "Jungle", "Space", "Summer", "Bar", "Home", "Dawn", "Beach", "Galaxy", "Allure", "Hawaii",
+        "Lights", "Rainbow", "Glamour", "Frost", "Fruits", "Mist", "Ocean", "Sky", "Daisy", "Gradient"
+    ],
+    "filters" : [
+        "Icy", "Santa", "Winter", "Brumal",
+        "Gray", "Blond", "Chocolate", "Frosty", "Rainy", "Indie", "Snowy", "Midnight", "Moon", "Nevada",
+        "Olive", "Peach", "Pink", "Sky", "Summer", "Clear", "Sunshine", "Heatwave", "Foggy", "Fair", "Fuji",
+        "Full Moon", "Sunrise", "Egypt", "Byers", "Chile", "Hyla", "New Zealand", "Korben",
+        "Japan", "Lucky", "England", "McKinnon", "Norway", "Neon", 
+        "LUX", "Paladin", "Canada", "Remy", "Contrast"
+    ],
+    "foregrounds" : [
+        "Love01", "Love02", "Confetti01", "Glare01", "Glare02", "Snow01", "Snow02", "Snow03", "Xmas",
+        "Haze01", "Haze02", "Haze03", "Shadow01", "Bokeh01", "Bokeh02", "Bokeh03", "Bokeh04", "Bokeh05", "Bokeh06", "Bokeh07",
+        "Light01", "Light02", "Light03", "Light04", "Light05", "Light06", "Light07", "Light08", "Light09",
+        "Light10", "Light11", "Light12", "Light13", "Light14", "Light15", "Light16", "Light17", "Light18",
+        "Light19", "Flare01", "Flare02"
+    ]
+}

@@ -663,6 +663,13 @@
       },
       {
         "kind": "Import",
+        "name": "BanubaUtilities",
+        "printedName": "BanubaUtilities",
+        "declKind": "Import",
+        "moduleName": "BanubaPhotoEditorSDK"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1024,8 +1031,8 @@
           },
           {
             "kind": "Var",
-            "name": "resourcesURL",
-            "printedName": "resourcesURL",
+            "name": "beautyMaskURL",
+            "printedName": "beautyMaskURL",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1035,8 +1042,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvp",
-            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvp",
+            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvp",
+            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvp",
             "moduleName": "BanubaPhotoEditorSDK",
             "declAttributes": [
               "HasStorage",
@@ -1057,8 +1064,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvg",
-                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvg",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvg",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvg",
                 "moduleName": "BanubaPhotoEditorSDK",
                 "implicit": true,
                 "accessorKind": "get"
@@ -1081,8 +1088,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvs",
-                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0Vvs",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvs",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0Vvs",
                 "moduleName": "BanubaPhotoEditorSDK",
                 "implicit": true,
                 "accessorKind": "set"
@@ -1099,8 +1106,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0VvM",
-                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV12resourcesURL10Foundation0G0VvM",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0VvM",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV13beautyMaskURL10Foundation0H0VvM",
                 "moduleName": "BanubaPhotoEditorSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -1109,8 +1116,118 @@
           },
           {
             "kind": "Var",
-            "name": "defaultResourcesBundleURL",
-            "printedName": "defaultResourcesBundleURL",
+            "name": "effectPlayerResourcesURL",
+            "printedName": "effectPlayerResourcesURL",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvp",
+            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvp",
+            "moduleName": "BanubaPhotoEditorSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvg",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvg",
+                "moduleName": "BanubaPhotoEditorSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.URL?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvs",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvs",
+                "moduleName": "BanubaPhotoEditorSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvM",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV24effectPlayerResourcesURL10Foundation0I0VSgvM",
+                "moduleName": "BanubaPhotoEditorSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "defaultBeautyMaskBundleURL",
+            "printedName": "defaultBeautyMaskBundleURL",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1120,8 +1237,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV25defaultResourcesBundleURL10Foundation0I0VvpZ",
-            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV25defaultResourcesBundleURL10Foundation0I0VvpZ",
+            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV26defaultBeautyMaskBundleURL10Foundation0J0VvpZ",
+            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV26defaultBeautyMaskBundleURL10Foundation0J0VvpZ",
             "moduleName": "BanubaPhotoEditorSDK",
             "static": true,
             "declAttributes": [
@@ -1141,8 +1258,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV25defaultResourcesBundleURL10Foundation0I0VvgZ",
-                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV25defaultResourcesBundleURL10Foundation0I0VvgZ",
+                "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV26defaultBeautyMaskBundleURL10Foundation0J0VvgZ",
+                "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV26defaultBeautyMaskBundleURL10Foundation0J0VvgZ",
                 "moduleName": "BanubaPhotoEditorSDK",
                 "static": true,
                 "accessorKind": "get"
@@ -1173,7 +1290,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(editorScreenConfiguration:previewScreenMode:resourcesURL:)",
+            "printedName": "init(editorScreenConfiguration:previewScreenMode:beautyMaskURL:effectPlayerResourcesURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1200,11 +1317,26 @@
                 "printedName": "Foundation.URL",
                 "hasDefaultArg": true,
                 "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV25editorScreenConfiguration07previewG4Mode12resourcesURLAcA0cgH0V_AC07PreviewgJ0O10Foundation0L0Vtcfc",
-            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV25editorScreenConfiguration07previewG4Mode12resourcesURLAcA0cgH0V_AC07PreviewgJ0O10Foundation0L0Vtcfc",
+            "usr": "s:20BanubaPhotoEditorSDK0bC6ConfigV25editorScreenConfiguration07previewG4Mode13beautyMaskURL021effectPlayerResourcesM0AcA0cgH0V_AC07PreviewgJ0O10Foundation0M0VANSgtcfc",
+            "mangledName": "$s20BanubaPhotoEditorSDK0bC6ConfigV25editorScreenConfiguration07previewG4Mode13beautyMaskURL021effectPlayerResourcesM0AcA0cgH0V_AC07PreviewgJ0O10Foundation0M0VANSgtcfc",
             "moduleName": "BanubaPhotoEditorSDK",
             "declAttributes": [
               "AccessControl"
@@ -4748,322 +4880,308 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2350,
+      "offset": 2373,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2396,
+      "offset": 2419,
       "length": 2,
       "value": "55"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2441,
+      "offset": 2464,
       "length": 16,
       "value": "\"bundleEffects\/\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2495,
+      "offset": 2518,
       "length": 21,
       "value": "\"applyBeautySettings\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2560,
+      "offset": 2583,
       "length": 25,
       "value": "\"enableEyebagsProcessing\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2620,
+      "offset": 2643,
       "length": 11,
       "value": "\"setMakeup\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2664,
-      "length": 14,
-      "value": "\"removeMakeup\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
-      "kind": "StringLiteral",
-      "offset": 2716,
+      "offset": 2692,
       "length": 14,
       "value": "\"setEyesColor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2769,
+      "offset": 2745,
       "length": 20,
       "value": "\"removeEyesColoring\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2827,
+      "offset": 2803,
       "length": 14,
       "value": "\"setHairColor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2880,
+      "offset": 2856,
       "length": 20,
       "value": "\"removeHairColoring\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2938,
+      "offset": 2914,
       "length": 14,
       "value": "\"setLipsColor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2990,
+      "offset": 2966,
       "length": 19,
       "value": "\"setShinyLipsColor\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3048,
+      "offset": 3024,
       "length": 20,
       "value": "\"setShinyLipsParams\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3107,
+      "offset": 3083,
       "length": 20,
       "value": "\"removeLipsColoring\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3164,
+      "offset": 3140,
       "length": 15,
       "value": "\"setBackground\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3217,
+      "offset": 3193,
       "length": 19,
       "value": "\"setBlurBackground\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3273,
+      "offset": 3249,
       "length": 18,
       "value": "\"removeBackground\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3329,
+      "offset": 3305,
       "length": 14,
       "value": "\"setLutFilter\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3384,
+      "offset": 3360,
       "length": 22,
       "value": "\"setLutFilterStrength\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3442,
+      "offset": 3418,
       "length": 17,
       "value": "\"removeLutFilter\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3509,
+      "offset": 3485,
       "length": 26,
       "value": "\"enableRecognizerFeatures\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3638,
+      "offset": 3614,
       "length": 13,
       "value": "\"setLipsSize\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3690,
+      "offset": 3666,
       "length": 19,
       "value": "\"enableCameraFrame\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3755,
+      "offset": 3731,
       "length": 22,
       "value": "\"setForegroundTexture\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3821,
+      "offset": 3797,
       "length": 18,
       "value": "\"deleteForeground\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3881,
+      "offset": 3857,
       "length": 23,
       "value": "\"setForegroundBlending\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 3946,
+      "offset": 3922,
       "length": 19,
       "value": "\"applyEyesColoring\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "FloatLiteral",
-      "offset": 4005,
+      "offset": 3981,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4047,
+      "offset": 4023,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4091,
+      "offset": 4067,
       "length": 2,
       "value": "30"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "FloatLiteral",
-      "offset": 4140,
+      "offset": 4116,
       "length": 4,
       "value": "30.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 4193,
+      "offset": 4169,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4269,
-      "length": 20,
-      "value": "\"BundleEffectAssets\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
-      "kind": "StringLiteral",
-      "offset": 4333,
+      "offset": 4251,
       "length": 19,
       "value": "\"beautyeffect_luts\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4403,
+      "offset": 4321,
       "length": 26,
       "value": "\"beautyeffect_foregrounds\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4476,
+      "offset": 4394,
       "length": 22,
       "value": "\"beautyeffect_makeups\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4547,
+      "offset": 4465,
       "length": 24,
       "value": "\"beautyeffect_backdrops\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4741,
-      "length": 8,
-      "value": "\"%@.png\""
+      "offset": 4659,
+      "length": 4,
+      "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4782,
-      "length": 13,
-      "value": "\"%@_tile.png\""
+      "offset": 4696,
+      "length": 9,
+      "value": "\"%@_tile\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 4869,
+      "offset": 4779,
       "length": 40,
       "value": "\"com.photo_editor.editing_actions_queue\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5241,
+      "offset": 5152,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5352,
+      "offset": 5263,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 5459,
+      "offset": 5370,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 5277,
+      "offset": 5188,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2207,
+      "offset": 2230,
       "length": 20,
       "value": "\"BanubaPhotoEditorSDK.EffectsPlayerService\""
     },
@@ -6477,16 +6595,16 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/ContentService.swift",
       "kind": "StringLiteral",
-      "offset": 423,
-      "length": 37,
-      "value": "\"configs\/effects_content_config.json\""
+      "offset": 501,
+      "length": 29,
+      "value": "\"effects_content_config.json\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/ContentService.swift",
       "kind": "StringLiteral",
-      "offset": 505,
-      "length": 33,
-      "value": "\"configs\/app_content_config.json\""
+      "offset": 575,
+      "length": 25,
+      "value": "\"app_content_config.json\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EffectSettingsEditor\/ViewModels\/NeuroBeautyLashesViewModel.swift",
@@ -7143,27 +7261,27 @@
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyEffect.swift",
       "kind": "StringLiteral",
       "offset": 341,
-      "length": 14,
-      "value": "\"Beauty_1.9.0\""
+      "length": 8,
+      "value": "\"Beauty\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyEffect.swift",
       "kind": "Dictionary",
-      "offset": 5570,
+      "offset": 5564,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyEffect.swift",
       "kind": "Array",
-      "offset": 5609,
+      "offset": 5603,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyEffect.swift",
       "kind": "BooleanLiteral",
-      "offset": 5642,
+      "offset": 5636,
       "length": 5,
       "value": "false"
     },
@@ -8619,324 +8737,324 @@
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 29975,
+      "offset": 29973,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Angel\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30156,
+      "length": 27,
+      "value": "\"Editing.LipsColor.Apricot\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30337,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Beige\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30516,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Belle\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30695,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Berry\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 30874,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Brave\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 31055,
       "length": 26,
       "value": "\"Editing.LipsColor.Bronze\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30155,
+      "offset": 31235,
       "length": 25,
       "value": "\"Editing.LipsColor.Brown\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30340,
+      "offset": 31420,
       "length": 28,
       "value": "\"Editing.LipsColor.Burgundy\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30528,
+      "offset": 31608,
       "length": 28,
       "value": "\"Editing.LipsColor.CafeChic\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30716,
+      "offset": 31796,
       "length": 28,
       "value": "\"Editing.LipsColor.CalmPink\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 30898,
+      "offset": 31978,
       "length": 25,
       "value": "\"Editing.LipsColor.Candy\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31077,
+      "offset": 32159,
+      "length": 26,
+      "value": "\"Editing.LipsColor.Cherry\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 32339,
       "length": 25,
       "value": "\"Editing.LipsColor.Coral\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31264,
+      "offset": 32518,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Cream\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 32697,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Disco\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 32874,
+      "length": 24,
+      "value": "\"Editing.LipsColor.Diva\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 33052,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Flirt\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 33239,
       "length": 29,
       "value": "\"Editing.LipsColor.Glintwein\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31447,
+      "offset": 33426,
+      "length": 27,
+      "value": "\"Editing.LipsColor.Heroine\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 33607,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Honey\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 33784,
+      "length": 24,
+      "value": "\"Editing.LipsColor.Icon\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 33960,
+      "length": 24,
+      "value": "\"Editing.LipsColor.Kiss\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 34138,
       "length": 25,
       "value": "\"Editing.LipsColor.Lilac\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31624,
+      "offset": 34323,
+      "length": 28,
+      "value": "\"Editing.LipsColor.Lollipop\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 34505,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Mauve\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 34686,
+      "length": 26,
+      "value": "\"Editing.LipsColor.Medusa\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 34866,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Melon\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35045,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Mocha\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35222,
+      "length": 24,
+      "value": "\"Editing.LipsColor.Muse\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35400,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Night\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35577,
+      "length": 24,
+      "value": "\"Editing.LipsColor.Nude\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35755,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Peach\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 35934,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Pearl\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 36113,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Peony\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 36290,
       "length": 24,
       "value": "\"Editing.LipsColor.Pink\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31810,
+      "offset": 36468,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Punch\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 36655,
       "length": 29,
       "value": "\"Editing.LipsColor.Raspberry\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 31989,
+      "offset": 36838,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Rebel\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37013,
       "length": 23,
       "value": "\"Editing.LipsColor.Red\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
       "kind": "StringLiteral",
-      "offset": 32168,
+      "offset": 37190,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Retro\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37371,
+      "length": 26,
+      "value": "\"Editing.LipsColor.Sahara\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37551,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Syrup\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37730,
+      "length": 25,
+      "value": "\"Editing.LipsColor.Taffy\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 37913,
+      "length": 27,
+      "value": "\"Editing.LipsColor.Unicorn\""
+    },
+    {
+      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 38096,
       "length": 26,
       "value": "\"Editing.LipsColor.Violet\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 32348,
-      "length": 25,
-      "value": "\"Editing.LipsColor.angel\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 32531,
-      "length": 27,
-      "value": "\"Editing.LipsColor.apricot\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 32712,
-      "length": 25,
-      "value": "\"Editing.LipsColor.beige\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 32891,
-      "length": 25,
-      "value": "\"Editing.LipsColor.belle\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33070,
-      "length": 25,
-      "value": "\"Editing.LipsColor.berry\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33249,
-      "length": 25,
-      "value": "\"Editing.LipsColor.brave\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33430,
-      "length": 26,
-      "value": "\"Editing.LipsColor.cherry\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33610,
-      "length": 25,
-      "value": "\"Editing.LipsColor.cream\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33789,
-      "length": 25,
-      "value": "\"Editing.LipsColor.disco\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 33966,
-      "length": 24,
-      "value": "\"Editing.LipsColor.diva\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 34144,
-      "length": 25,
-      "value": "\"Editing.LipsColor.flirt\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 34327,
-      "length": 27,
-      "value": "\"Editing.LipsColor.heroine\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 34508,
-      "length": 25,
-      "value": "\"Editing.LipsColor.honey\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 34685,
-      "length": 24,
-      "value": "\"Editing.LipsColor.icon\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 34861,
-      "length": 24,
-      "value": "\"Editing.LipsColor.kiss\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35045,
-      "length": 28,
-      "value": "\"Editing.LipsColor.lollipop\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35227,
-      "length": 25,
-      "value": "\"Editing.LipsColor.mauve\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35408,
-      "length": 26,
-      "value": "\"Editing.LipsColor.medusa\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35588,
-      "length": 25,
-      "value": "\"Editing.LipsColor.melon\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35767,
-      "length": 25,
-      "value": "\"Editing.LipsColor.mocha\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 35944,
-      "length": 24,
-      "value": "\"Editing.LipsColor.muse\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 36122,
-      "length": 25,
-      "value": "\"Editing.LipsColor.night\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 36299,
-      "length": 24,
-      "value": "\"Editing.LipsColor.nude\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 36477,
-      "length": 25,
-      "value": "\"Editing.LipsColor.peach\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 36656,
-      "length": 25,
-      "value": "\"Editing.LipsColor.pearl\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 36835,
-      "length": 25,
-      "value": "\"Editing.LipsColor.peony\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37014,
-      "length": 25,
-      "value": "\"Editing.LipsColor.punch\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37193,
-      "length": 25,
-      "value": "\"Editing.LipsColor.rebel\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37372,
-      "length": 25,
-      "value": "\"Editing.LipsColor.retro\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37553,
-      "length": 26,
-      "value": "\"Editing.LipsColor.sahara\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37733,
-      "length": 25,
-      "value": "\"Editing.LipsColor.syrup\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 37912,
-      "length": 25,
-      "value": "\"Editing.LipsColor.taffy\""
-    },
-    {
-      "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
-      "kind": "StringLiteral",
-      "offset": 38095,
-      "length": 27,
-      "value": "\"Editing.LipsColor.unicorn\""
     },
     {
       "filePath": "\/Users\/user\/Library\/Developer\/Xcode\/DerivedData\/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh\/Build\/Intermediates.noindex\/ArchiveIntermediates\/BanubaPhotoEditorSDK\/IntermediateBuildFilesPath\/BanubaPhotoEditorSDK.build\/Release-iphoneos\/BanubaPhotoEditorSDK.build\/DerivedSources\/GeneratedAssetSymbols.swift",
