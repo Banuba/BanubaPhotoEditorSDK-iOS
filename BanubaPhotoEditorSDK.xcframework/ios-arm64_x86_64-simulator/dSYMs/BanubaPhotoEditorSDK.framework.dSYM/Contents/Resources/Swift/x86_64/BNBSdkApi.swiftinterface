@@ -265,6 +265,10 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
 }
 @objc public class Player : ObjectiveC.NSObject {
   final public let effectPlayer: BNBSdkCore.BNBEffectPlayer
+  public var enableTouches: Swift.Bool {
+    get
+    set
+  }
   public enum RenderMode {
     case loop
     case manual
@@ -288,7 +292,7 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
   public var effect: BNBSdkCore.BNBEffect? {
     get
   }
-  public init(fps: Swift.Int = 30)
+  public init(fps: Swift.Int = 30, renderBackend: BNBSdkCore.BNBRenderBackendType = .metal)
   @objc deinit
   public func play()
   public func pause()
@@ -322,6 +326,12 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
   @_Concurrency.MainActor(unsafe) @objc override dynamic public class var layerClass: Swift.AnyClass {
     @objc get
   }
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class OpenGLLayer : QuartzCore.CAEAGLLayer {
+  public func validateFB(ctx: OpenGLES.EAGLContext, size: CoreFoundation.CGSize)
+  @objc override dynamic public init(layer: Any)
+  @objc override dynamic public init()
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc @_Concurrency.MainActor(unsafe) public class OpenGLEffectPlayerView : BNBSdkApi.BaseEffectPlayerView {
@@ -376,6 +386,15 @@ public protocol OffscreenPresenting {
 }
 @_hasMissingDesignatedInitializers public class MetalTextureCache : BNBSdkApi.TextureCache {
   public var metalTexture: (any Metal.MTLTexture)? {
+    get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class OGLTextureCache : BNBSdkApi.TextureCache {
+  public var OGLTexture: OpenGLES.GLenum? {
+    get
+  }
+  public var OGLTextureName: OpenGLES.GLenum? {
     get
   }
   @objc deinit

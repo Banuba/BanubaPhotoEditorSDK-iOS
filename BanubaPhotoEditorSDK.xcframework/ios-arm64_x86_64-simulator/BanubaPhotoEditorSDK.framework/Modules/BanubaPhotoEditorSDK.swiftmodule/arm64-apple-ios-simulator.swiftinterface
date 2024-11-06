@@ -34,12 +34,13 @@ public struct PhotoEditorConfig {
   }
   public var editorScreenConfiguration: BanubaPhotoEditorSDK.EditorScreenConfiguration
   public var previewScreenMode: BanubaPhotoEditorSDK.PhotoEditorConfig.PreviewScreenMode
-  public var resourcesURL: Foundation.URL
-  public static var defaultResourcesBundleURL: Foundation.URL {
+  public var beautyMaskURL: Foundation.URL
+  public var effectPlayerResourcesURL: Foundation.URL?
+  public static var defaultBeautyMaskBundleURL: Foundation.URL {
     get
   }
   public init()
-  public init(editorScreenConfiguration: BanubaPhotoEditorSDK.EditorScreenConfiguration = .init(), previewScreenMode: BanubaPhotoEditorSDK.PhotoEditorConfig.PreviewScreenMode, resourcesURL: Foundation.URL = Self.defaultResourcesBundleURL)
+  public init(editorScreenConfiguration: BanubaPhotoEditorSDK.EditorScreenConfiguration = .init(), previewScreenMode: BanubaPhotoEditorSDK.PhotoEditorConfig.PreviewScreenMode, beautyMaskURL: Foundation.URL = Self.defaultBeautyMaskBundleURL, effectPlayerResourcesURL: Foundation.URL? = nil)
 }
 public struct EditorScreenConfiguration {
   public var saveResultToPhotoLibrary: Swift.Bool
