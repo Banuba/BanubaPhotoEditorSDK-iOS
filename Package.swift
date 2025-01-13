@@ -2,9 +2,9 @@
 
 import PackageDescription
 
-//let faceARversionRange: Range<Version> = "1.16.0"..<"1.16.1"
-let faceARversionRange: Version = "1.16.0"
-let videoEditorSDKRange: Range<Version> = "1.38.0"..<"1.39.7"
+let faceARversionRange: Range<Version> = "1.16.0"..<"1.16.3"
+//let faceARversionRange: Version = "1.16.0"
+let videoEditorSDKRange: Range<Version> = "1.38.0"..<"1.39.8"
 
 let package = Package(
   name: "BanubaPhotoEditorSDK",
@@ -18,16 +18,16 @@ let package = Package(
     )
   ],
   dependencies: [
-    .package(url: "https://github.com/sdk-banuba/BNBSdkCore.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBSdkApi.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBEffectPlayer.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBScripting.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBLips.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBHair.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBEyes.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBBackground.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBSkin.git", exact: faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBAcneEyebagsRemoval.git", exact: faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBSdkCore.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBSdkApi.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBEffectPlayer.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBScripting.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBLips.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBHair.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBEyes.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBBackground.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBSkin.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBAcneEyebagsRemoval.git", faceARversionRange),
     
     .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", videoEditorSDKRange),
     .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", videoEditorSDKRange),
