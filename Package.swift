@@ -2,9 +2,9 @@
 
 import PackageDescription
 
-let faceARversionRange: Range<Version> = "1.16.0"..<"1.16.99"
+let faceARversionRange: Range<Version> = "1.16.0"..<"1.17.99"
 //let faceARversionRange: Version = "1.16.0"
-let videoEditorSDKRange: Range<Version> = "1.38.0"..<"1.49.99"
+let videoEditorSDKRange: Range<Version> = "1.41.0"..<"1.42.99"
 
 let package = Package(
   name: "BanubaPhotoEditorSDK",
@@ -49,7 +49,8 @@ let package = Package(
         "BNBSkin",
         "BNBAcneEyebagsRemoval",
         "BanubaLicenseServicingSDK",
-        .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS")
+        .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
+        .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
       ],
       path: "BanubaPhotoEditorSDKWrapper"
     ),

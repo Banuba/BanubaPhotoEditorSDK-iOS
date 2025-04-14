@@ -292,14 +292,16 @@ extension BNBSdkApi.BaseEffectPlayerView : BNBSdkApi.Output {
   public var effect: BNBSdkCore.BNBEffect? {
     get
   }
-  public init(fps: Swift.Int = 30, renderBackend: BNBSdkCore.BNBRenderBackendType = .metal)
+  public init(fps: Swift.Int = 30, renderBackend: BNBSdkCore.BNBRenderBackendType = .metal, useThread: Swift.Bool = true)
   @objc deinit
   public func play()
   public func pause()
+  public func stop()
   public func use(input: (any BNBSdkApi.Input)?)
   public func use(outputs: [any BNBSdkApi.Output])
   public func use(input: (any BNBSdkApi.Input)?, outputs: [any BNBSdkApi.Output])
   public func load(effect: Swift.String, sync: Swift.Bool = false, completion: ((BNBSdkCore.BNBEffect?) -> Swift.Void)? = nil) -> BNBSdkCore.BNBEffect?
+  public func reload(config: Swift.String, sync: Swift.Bool = false) -> BNBSdkCore.BNBReloadResult?
   public func onResize(action: @escaping (CoreFoundation.CGSize) -> Swift.Void)
   public func onRender(action: @escaping (Swift.Bool, Swift.Int64) -> Swift.Void)
   public func render() -> Swift.Bool
@@ -362,6 +364,9 @@ public typealias OffscreenRenderTarget = BNBSdkApi.RenderTarget & BNBSdkApi.Offs
   @objc deinit
 }
 @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @objc public class RenderTarget : ObjectiveC.NSObject {
+  public var renderSize: CoreFoundation.CGSize {
+    get
+  }
   @available(*, unavailable, message: "This class doesn't have public initializer!")
   @objc override dynamic public init()
   @objc public func makeRenderedFrame() -> BNBSdkApi.RenderedFrame?
@@ -374,6 +379,7 @@ public protocol OffscreenPresenting {
   func present(to: BNBSdkApi.TextureCache)
   func present(to: QuartzCore.CALayer?, orientation: BNBSdkApi.Orientation, viewPort: CoreFoundation.CGRect)
   func presentToCIImage() -> CoreImage.CIImage?
+  func present(orientation: BNBSdkApi.Orientation, viewPort: CoreFoundation.CGRect, flipY: Swift.Bool)
 }
 @_hasMissingDesignatedInitializers public class TextureCache {
   public var pixelBuffer: CoreVideo.CVPixelBuffer? {
