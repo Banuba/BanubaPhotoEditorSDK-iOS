@@ -75,15 +75,17 @@ public struct PhotoEditorLaunchConfig {
   public var entryPoint: BanubaPhotoEditorSDK.PhotoEditorEntryPoint
   public init(hostController: UIKit.UIViewController, entryPoint: BanubaPhotoEditorSDK.PhotoEditorEntryPoint = .gallery)
 }
-public protocol BanubaPhotoEditorDelegate : AnyObject {
-  func photoEditorDidCancel(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor)
-  func photoEditorDidFinishWithImage(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor, image: UIKit.UIImage)
+@objc public protocol BanubaPhotoEditorDelegate {
+  @objc(photoEditorDidCancel:) func photoEditorDidCancel(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor)
+  @objc(photoEditorDidFinishWithImage:image:) func photoEditorDidFinishWithImage(_ photoEditor: BanubaPhotoEditorSDK.BanubaPhotoEditor, image: UIKit.UIImage)
 }
-public class BanubaPhotoEditor {
-  weak public var delegate: (any BanubaPhotoEditorSDK.BanubaPhotoEditorDelegate)?
+@objc public class BanubaPhotoEditor : ObjectiveC.NSObject {
+  @objc weak public var delegate: (any BanubaPhotoEditorSDK.BanubaPhotoEditorDelegate)?
   public init?(token: Swift.String, configuration: BanubaPhotoEditorSDK.PhotoEditorConfig)
+  @objc public init?(license: BanubaLicenseServicingSDK.License)
   @objc deinit
+  @objc(presentPhotoEditorForImage:fromViewController:) public func presentPhotoEditor(for image: UIKit.UIImage, from vc: UIKit.UIViewController)
   public func presentPhotoEditor(withLaunchConfiguration configuration: BanubaPhotoEditorSDK.PhotoEditorLaunchConfig, completion: (() -> Swift.Void)?)
-  public func dismissPhotoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
+  @objc(dismissPhotoEditorAnimated:completion:) public func dismissPhotoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)
   public func getLicenseState(completion: @escaping ((Swift.Bool) -> Swift.Void))
 }

@@ -281,6 +281,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -315,6 +316,31 @@ SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK30AlbumPreviewCollectionViewCell")
 
 
 
+
+@protocol BanubaPhotoEditorDelegate;
+@class License;
+@class UIImage;
+@class UIViewController;
+
+SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK17BanubaPhotoEditor")
+@interface BanubaPhotoEditor : NSObject
+@property (nonatomic, weak) id <BanubaPhotoEditorDelegate> _Nullable delegate;
+- (nullable instancetype)initWithLicense:(License * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
+- (void)presentPhotoEditorForImage:(UIImage * _Nonnull)image fromViewController:(UIViewController * _Nonnull)vc;
+/// Dismiss Photo Editor’s root view controller
+- (void)dismissPhotoEditorAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_PROTOCOL("_TtP20BanubaPhotoEditorSDK25BanubaPhotoEditorDelegate_")
+@protocol BanubaPhotoEditorDelegate
+/// User closed photo editor without editing image
+- (void)photoEditorDidCancel:(BanubaPhotoEditor * _Nonnull)photoEditor;
+/// User closed photo editor after saving image
+- (void)photoEditorDidFinishWithImage:(BanubaPhotoEditor * _Nonnull)photoEditor image:(UIImage * _Nonnull)image;
+@end
 
 
 
@@ -639,6 +665,7 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -673,6 +700,31 @@ SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK30AlbumPreviewCollectionViewCell")
 
 
 
+
+@protocol BanubaPhotoEditorDelegate;
+@class License;
+@class UIImage;
+@class UIViewController;
+
+SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK17BanubaPhotoEditor")
+@interface BanubaPhotoEditor : NSObject
+@property (nonatomic, weak) id <BanubaPhotoEditorDelegate> _Nullable delegate;
+- (nullable instancetype)initWithLicense:(License * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
+- (void)presentPhotoEditorForImage:(UIImage * _Nonnull)image fromViewController:(UIViewController * _Nonnull)vc;
+/// Dismiss Photo Editor’s root view controller
+- (void)dismissPhotoEditorAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
+
+SWIFT_PROTOCOL("_TtP20BanubaPhotoEditorSDK25BanubaPhotoEditorDelegate_")
+@protocol BanubaPhotoEditorDelegate
+/// User closed photo editor without editing image
+- (void)photoEditorDidCancel:(BanubaPhotoEditor * _Nonnull)photoEditor;
+/// User closed photo editor after saving image
+- (void)photoEditorDidFinishWithImage:(BanubaPhotoEditor * _Nonnull)photoEditor image:(UIImage * _Nonnull)image;
+@end
 
 
 
