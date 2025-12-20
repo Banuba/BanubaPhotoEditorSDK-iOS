@@ -15,12 +15,17 @@ import DeveloperToolsSupport
 import Foundation
 import Photos
 import PhotosUI
+import QuartzCore
 import Swift
 import SwiftUI
 import UIKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
+public struct PhotoCropItemConfiguration {
+}
+public struct PhotoCropViewConfiguration {
+}
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class AlbumPreviewCollectionViewCell : UIKit.UICollectionViewCell {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func awakeFromNib()
