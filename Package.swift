@@ -2,9 +2,9 @@
 
 import PackageDescription
 
-let faceARversionRange: Range<Version> = "1.17.2"..<"1.17.99"
+let faceARversionRange: Range<Version> = "1.17.5"..<"1.17.99"
 //let faceARversionRange: Version = "1.16.0"
-let videoEditorSDKRange: Range<Version> = "1.45.0"..<"1.50.99"
+let videoEditorSDKRange: Range<Version> = "1.49.3"..<"1.50.99"
 
 let package = Package(
   name: "BanubaPhotoEditorSDK",
@@ -27,7 +27,7 @@ let package = Package(
     .package(url: "https://github.com/sdk-banuba/BNBEyes.git", faceARversionRange),
     .package(url: "https://github.com/sdk-banuba/BNBBackground.git", faceARversionRange),
     .package(url: "https://github.com/sdk-banuba/BNBSkin.git", faceARversionRange),
-    .package(url: "https://github.com/sdk-banuba/BNBAcneEyebagsRemoval.git", faceARversionRange),
+    .package(url: "https://github.com/sdk-banuba/BNBMakeup.git", faceARversionRange),
     
     .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", videoEditorSDKRange),
     .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", videoEditorSDKRange),
@@ -47,7 +47,6 @@ let package = Package(
         "BNBEyes",
         "BNBBackground",
         "BNBSkin",
-        "BNBAcneEyebagsRemoval",
         "BanubaLicenseServicingSDK",
         .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
         .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")

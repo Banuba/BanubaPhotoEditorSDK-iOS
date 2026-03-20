@@ -51,7 +51,7 @@
     ],
     "foregrounds" : [
         "Love01", "Love02", "Confetti01", "Glare01", "Glare02", "Snow01", "Snow02", "Snow03", "Xmas",
-        "Haze01", "Haze02", "Haze03", "Shadow01", "Bokeh01", "Bokeh02", "Bokeh03", "Bokeh04", "Bokeh05", "Bokeh06", "Bokeh07",
+        "Haze01", "Haze02", "Haze03", "Bokeh01", "Bokeh02", "Bokeh03", "Bokeh04", "Bokeh05", "Bokeh06", "Bokeh07",
         "Light01", "Light02", "Light03", "Light04", "Light05", "Light06", "Light07", "Light08", "Light09",
         "Light10", "Light11", "Light12", "Light13", "Light14", "Light15", "Light16", "Light17", "Light18",
         "Light19", "Flare01", "Flare02"

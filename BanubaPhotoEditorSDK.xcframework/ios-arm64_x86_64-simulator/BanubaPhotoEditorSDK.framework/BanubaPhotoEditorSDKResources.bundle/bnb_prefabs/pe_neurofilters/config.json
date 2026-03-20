@@ -1,0 +1,60 @@
+{
+    "apply_order": 1000,
+    "depends": ["camera"],
+    "assets": {
+        "attachments": {
+            "pe_neurofilters_result": {"type": "color"}
+        },
+        "materials": {
+            "filters": 
+            {
+                "path": "/bnb_prefabs/pe_neurofilters/filters",
+                "samplers": [
+                    { "name": "tex_input", "image": "base_main_color" }
+                ],
+                "state": { 
+                    "blend": "off", 
+                    "backfaces": true, 
+                    "colorwrite": true, 
+                    "ztest": false, 
+                    "zwrite": false 
+                },
+                "parameters": {
+                    "filter_brightness_contrast_saturation": {
+                        "type": "vec4", "value": [0, 0, 0, 0]
+                    },
+                    "filter_noise_strength_monochromatic_sharpen_amount_radius": {
+                        "type": "vec4", "value": [0, 0, 0, 0]
+                    }
+                }
+            }
+        }
+    },
+    "entities": {
+        "pe_neurofilters": { 
+            "components": { 
+                "mesh_instance": { 
+                    "mesh": "$builtin$meshes/fs_tri", 
+                    "materials": ["filters"]
+                }
+            },
+            "layer": "pe_neurofilters"
+        }
+    },
+    "hierarchy": {
+        "root": ["pe_neurofilters"]
+    },
+    "render_list": {
+        "default": [
+            { 
+                "layer": "pe_neurofilters", 
+                "render_target": "pe_neurofilters_result", 
+                "blit" : "base_rt" 
+            }
+        ]
+    },
+    "render_targets": {
+        "pe_neurofilters_result": { "attachments": [ "pe_neurofilters_result" ]}
+    },
+    "script": "/bnb_prefabs/pe_neurofilters/index.js"
+}

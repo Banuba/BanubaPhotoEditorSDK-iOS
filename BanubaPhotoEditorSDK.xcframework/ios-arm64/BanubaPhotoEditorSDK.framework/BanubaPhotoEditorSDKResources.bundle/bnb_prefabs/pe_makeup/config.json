@@ -1,0 +1,107 @@
+/* 
+Place this prefab in `bnb_resources/bnb_prefabs` folder in your project. Add the
+following lines into your `config.json`:
+
+{
+    // ...
+
+    "pe_makeup": {
+        "texture": "texture.png",
+        "strength": 1,
+        "blushesTexture": "texture1.png",
+        "blushesStrength": 1
+    }
+}
+
+All attibutes except 'texture' are optional.
+*/
+
+
+{
+  "apply_order": 81,
+  "depends": ["camera"],
+  "assets": {
+    "attachments": {
+      "pe_makeup_color": { "type": "color" }
+    },
+    "faces": {
+      "face:@face_idx": {
+        "index": @face_idx,
+        "mesh": "face_stream:@face_idx"
+      }
+    },
+    "images": {
+      "pe_makeup": {
+        "file_name": "/bnb_prefabs/pe_makeup/null_image.png",
+        "type": "texture"
+      },
+      "pe_blushes": {
+        "file_name": "/bnb_prefabs/pe_makeup/null_image.png",
+        "type": "texture"
+      }
+    },
+    "materials": {
+      "pe_makeup": {
+        "path": "/bnb_prefabs/pe_makeup/pe_makeup",
+        "samplers": [
+          {
+            "name": "tex_pe_makeup",
+            "image": "pe_makeup"
+          },
+          {
+            "name": "tex_pe_blushes",
+            "image": "pe_blushes"
+          }
+        ],
+        "state": { 
+          "blend": "alpha", 
+          "backfaces": true, 
+          "colorwrite": true, 
+          "ztest": true, 
+          "zwrite": true 
+        },
+        "parameters": {
+          "pe_makeup_strength": {"type": "vec4", "value": [0, 0, 0, 1]},
+          "pe_blushes_strength": {"type": "vec4", "value": [0, 0, 0, 1]}
+        }
+      }
+    },
+    "meshes": {
+      "face_stream:@face_idx": "$builtin$meshes/face.stream:@face_idx"
+    }
+  },
+  "components": {
+    "face_tracker:@face_idx": {
+      "face": "face:@face_idx",
+      "type": "face_tracker"
+    }
+  },
+  "entities": {
+    "pe_makeup:@face_idx": {
+      "components": {
+        "mesh_instance": {
+          "materials": ["pe_makeup"],
+          "mesh": "face_stream:@face_idx"
+        }
+      },
+      "layer": "pe_makeup_layer:@face_idx"
+    },
+    "face_tracker:@face_idx": { "components": ["face_tracker:@face_idx"] }
+  },
+  "hierarchy": {
+    "face_tracker:@face_idx": ["pe_makeup:@face_idx"],
+    "root": ["face_tracker:@face_idx"]
+  },
+  "render_list": {
+    "default": [
+      {
+        "layer": "pe_makeup_layer:@face_idx",
+        "render_target": "base_rt"
+      }
+    ]
+  },
+  "render_targets": {
+    "pe_makeup_composer_rt": [ "pe_makeup_color"]
+  },
+  "script": "/bnb_prefabs/pe_makeup/config.js"
+}
