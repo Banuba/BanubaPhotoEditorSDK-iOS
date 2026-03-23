@@ -47,6 +47,7 @@ let package = Package(
         "BNBEyes",
         "BNBBackground",
         "BNBSkin",
+        "BNBMakeup",
         "BanubaLicenseServicingSDK",
         .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
         .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")

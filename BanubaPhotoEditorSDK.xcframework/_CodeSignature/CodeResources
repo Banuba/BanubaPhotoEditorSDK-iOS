@@ -22,7 +22,7 @@
 		</data>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDK</key>
 		<data>
-		9Gwy5/dgVyfpw7xF/ZPRxNA3ZkI=
+		OCAuiEX6KoJVDXjWhVLhmXIDxsU=
 		</data>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDKResources.bundle/Beauty/Eden.png</key>
 		<data>
@@ -958,7 +958,7 @@
 		</data>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/Info.plist</key>
 		<data>
-		zEmecWrxjkT1GC7CQuv/hla+Rqg=
+		hEccAcOGhUIpLZYd1zXFvg6NHRs=
 		</data>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/LimitedAccessCell.nib</key>
 		<data>
@@ -1014,11 +1014,11 @@
 		</data>
 		<key>ios-arm64/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		J8QhufIOZlLilJ2CroJP00VZUuI=
+		5CE61dDnPbXDWjTrVxJYFlAxdeo=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/DWARF/BanubaPhotoEditorSDK</key>
 		<data>
-		HzlDlYOuBXvhvqAy4cH0Gvt8iuw=
+		PCoCvBf33WCNK0tbqZEoAzVV/T4=
 		</data>
 		<key>ios-arm64/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaPhotoEditorSDK.yml</key>
 		<data>
@@ -1046,7 +1046,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDK</key>
 		<data>
-		KfqT1NKpWiZcfwgSIq2szCAo2d4=
+		7uOHH7vNfAGNpi50A6dJSC2CP1g=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDKResources.bundle/Beauty/Eden.png</key>
 		<data>
@@ -1982,7 +1982,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/Info.plist</key>
 		<data>
-		ikHbsjN9hpvRYJ77psEIPZAZhMk=
+		+hvMauwyJlp6Li2w1z8/eDevS6o=
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/LimitedAccessCell.nib</key>
 		<data>
@@ -2054,15 +2054,15 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/_CodeSignature/CodeResources</key>
 		<data>
-		SM5teuOkYd/f8794JaqGO5wRSQw=
+		D8wftLh1I6qZrdCZDaesVTibfuw=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Info.plist</key>
 		<data>
-		J8QhufIOZlLilJ2CroJP00VZUuI=
+		5CE61dDnPbXDWjTrVxJYFlAxdeo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/DWARF/BanubaPhotoEditorSDK</key>
 		<data>
-		ATwSDHBU9pspQJ4rlHSqcyiseTc=
+		A3Uq6k6nlho9rFhxahxbK6XP7vQ=
 		</data>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaPhotoEditorSDK.yml</key>
 		<data>
@@ -2115,7 +2115,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p4E17+PMUI/5qNQk+D8Yvd7v3rMj1JG4XYOWbCZJhjY=
+			v5z6CzazV0n1JrwwOxYBm1PVZVpmSguLhAiglpr1Vps=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDKResources.bundle/Beauty/Eden.png</key>
@@ -3753,7 +3753,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iU9g7zVgQSPqJ9E0tarGLTypPtOs31LtnNRy/R+Svvw=
+			eA3NYbC7ZCTvhhe0qfheKXDJHTnv5YhUFt48AZ/HPMc=
 			</data>
 		</dict>
 		<key>ios-arm64/BanubaPhotoEditorSDK.framework/LimitedAccessCell.nib</key>
@@ -3851,14 +3851,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYQh8RE9Kh4Xx+94bKSpioN10CRc9oQRsAlsD+Y1tys=
+			kq2c1rNIrR28E/FV+5zCJc3LxKKc7GReK9LB3KhPcAo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/DWARF/BanubaPhotoEditorSDK</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/bCnKiECJtJ0bCbQFQh/mml9vj76C7z+QpIJKmyxmp4=
+			zCUVCRUGom3Hlrtxsm7kd97bCztqJd825bb6I+odggo=
 			</data>
 		</dict>
 		<key>ios-arm64/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaPhotoEditorSDK.yml</key>
@@ -3907,7 +3907,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5Vkmz4xWm+r91zmeT40Lls8l+3ORGP/s7pS838Vnv80=
+			EHRlb8jzdw3cTK66/SBuMHu/7Ux1tCoA7yYduXOCc0c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDKResources.bundle/Beauty/Eden.png</key>
@@ -5545,7 +5545,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			LfFgqOUGFvwQH9zpNKPg4KCgl6P6QUpLOyYi3RM8Mr4=
+			lP8qF5xHrcrWrPAzn2WFjlJAAFXPxX8RLvoWxLqOs3w=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/BanubaPhotoEditorSDK.framework/LimitedAccessCell.nib</key>
@@ -5671,21 +5671,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			m5bTflivbKYXudg0kb4AesePBDDwslyA4VxJN6FSsbc=
+			uEPRNStN1dJD8oTH0txrXINNkAOpF6FqfrVWGpJocXc=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PYQh8RE9Kh4Xx+94bKSpioN10CRc9oQRsAlsD+Y1tys=
+			kq2c1rNIrR28E/FV+5zCJc3LxKKc7GReK9LB3KhPcAo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/DWARF/BanubaPhotoEditorSDK</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rEorcNczeVM1Nq6P8Cf3OEfPgLt4k3s2L71XaeORr1o=
+			mVTRyrUxq2LbJCmeW/HLp9g0gVv2MsaJUDipkp+YbOM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/dSYMs/BanubaPhotoEditorSDK.framework.dSYM/Contents/Resources/Relocations/aarch64/BanubaPhotoEditorSDK.yml</key>
