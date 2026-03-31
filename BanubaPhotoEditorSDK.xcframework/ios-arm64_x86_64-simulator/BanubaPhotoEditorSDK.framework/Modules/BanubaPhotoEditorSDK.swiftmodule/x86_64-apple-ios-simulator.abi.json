@@ -3924,7 +3924,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(license:)",
+            "printedName": "init(license:beautyMaskURL:effectPlayerResourcesURL:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -3945,13 +3945,41 @@
                 "name": "License",
                 "printedName": "BanubaLicenseServicingSDK.License",
                 "usr": "c:@M@BanubaLicenseServicingSDK@objc(cs)License"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.URL?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "c:@M@BanubaPhotoEditorSDK@objc(cs)BanubaPhotoEditor(im)initWithLicense:",
-            "mangledName": "$s20BanubaPhotoEditorSDK0abC0C7licenseACSg0a16LicenseServicingD00F0C_tcfc",
+            "usr": "c:@M@BanubaPhotoEditorSDK@objc(cs)BanubaPhotoEditor(im)initWithLicense:beautyMaskURL:effectPlayerResourcesURL:",
+            "mangledName": "$s20BanubaPhotoEditorSDK0abC0C7license13beautyMaskURL021effectPlayerResourcesH0ACSg0a16LicenseServicingD00L0C_10Foundation0H0VSgANtcfc",
             "moduleName": "BanubaPhotoEditorSDK",
-            "objc_name": "initWithLicense:",
+            "objc_name": "initWithLicense:beautyMaskURL:effectPlayerResourcesURL:",
             "declAttributes": [
               "AccessControl",
               "ObjC"
@@ -4041,6 +4069,79 @@
             "declAttributes": [
               "AccessControl",
               "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhotoEditorNavigationController",
+            "printedName": "getPhotoEditorNavigationController(withLaunchConfiguration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "PhotoEditorLaunchConfig",
+                "printedName": "BanubaPhotoEditorSDK.PhotoEditorLaunchConfig",
+                "usr": "s:20BanubaPhotoEditorSDK0bC12LaunchConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20BanubaPhotoEditorSDK0abC0C03getbC20NavigationController23withLaunchConfigurationSo012UINavigationG0CSgAA0bcI6ConfigV_tF",
+            "mangledName": "$s20BanubaPhotoEditorSDK0abC0C03getbC20NavigationController23withLaunchConfigurationSo012UINavigationG0CSgAA0bcI6ConfigV_tF",
+            "moduleName": "BanubaPhotoEditorSDK",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPhotoEditorNavigationController",
+            "printedName": "getPhotoEditorNavigationController(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UINavigationController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UINavigationController",
+                    "printedName": "UIKit.UINavigationController",
+                    "usr": "c:objc(cs)UINavigationController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIImage",
+                "printedName": "UIKit.UIImage",
+                "usr": "c:objc(cs)UIImage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@BanubaPhotoEditorSDK@objc(cs)BanubaPhotoEditor(im)getPhotoEditorNavigationControllerForImage:",
+            "mangledName": "$s20BanubaPhotoEditorSDK0abC0C03getbC20NavigationController3forSo012UINavigationG0CSgSo7UIImageC_tF",
+            "moduleName": "BanubaPhotoEditorSDK",
+            "objc_name": "getPhotoEditorNavigationControllerForImage:",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -4934,70 +5035,70 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1236,
+      "offset": 1311,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1271,
+      "offset": 1346,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1306,
+      "offset": 1381,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1341,
+      "offset": 1416,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1391,
+      "offset": 1466,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1443,
+      "offset": 1518,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1483,
+      "offset": 1544,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1527,
+      "offset": 1588,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1569,
+      "offset": 1630,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/ContentService\/EffectContentConfig.swift",
       "kind": "Array",
-      "offset": 1612,
+      "offset": 1673,
       "length": 2,
       "value": "[]"
     },
@@ -5340,63 +5441,56 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2619,
-      "length": 7,
-      "value": "\"blush\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
-      "kind": "StringLiteral",
-      "offset": 2666,
+      "offset": 2614,
       "length": 4,
       "value": "\"%@\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2703,
+      "offset": 2651,
       "length": 9,
       "value": "\"%@_tile\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "StringLiteral",
-      "offset": 2838,
+      "offset": 2786,
       "length": 40,
       "value": "\"com.photo_editor.editing_actions_queue\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3391,
+      "offset": 3339,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3456,
+      "offset": 3404,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3564,
+      "offset": 3512,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "IntegerLiteral",
-      "offset": 3671,
+      "offset": 3619,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Services\/EffectsPlayer\/EffectsPlayerService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3489,
+      "offset": 3437,
       "length": 5,
       "value": "false"
     },
@@ -6411,7 +6505,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/EditingModeInteractor.swift",
       "kind": "FloatLiteral",
-      "offset": 29531,
+      "offset": 29493,
       "length": 3,
       "value": "0.0"
     },
@@ -7475,7 +7569,7 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EffectSettingsEditor\/ViewModels\/BlushViewModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 459,
+      "offset": 431,
       "length": 4,
       "value": "true"
     },
@@ -7769,37 +7863,23 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 6102,
+      "offset": 8822,
       "length": 54,
       "value": "\"Failed to decode image at url. \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 6155,
+      "offset": 8875,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 6667,
+      "offset": 9359,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
-      "kind": "StringLiteral",
-      "offset": 6791,
-      "length": 28,
-      "value": "\"CFBundleShortVersionString\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
-      "kind": "BooleanLiteral",
-      "offset": 7069,
-      "length": 4,
-      "value": "true"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/RIBs\/EditingMode\/Transform\/TransformViewController.swift",
@@ -7930,238 +8010,245 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1793,
+      "offset": 1827,
       "length": 13,
       "value": "\"makeup_base\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1851,
+      "offset": 1885,
       "length": 17,
       "value": "\"teeth_whitening\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1908,
+      "offset": 1926,
+      "length": 14,
+      "value": "\"makeup_blush\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 1980,
       "length": 11,
       "value": "\"pe_makeup\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1948,
+      "offset": 2020,
       "length": 19,
       "value": "\"makeup_foundation\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2008,
+      "offset": 2080,
       "length": 17,
       "value": "\"makeup_lipstick\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2120,
+      "offset": 2192,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2147,
+      "offset": 2219,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2182,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
-      "kind": "FloatLiteral",
-      "offset": 2216,
-      "length": 3,
-      "value": "0.5"
-    },
-    {
-      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
-      "kind": "StringLiteral",
-      "offset": 2273,
+      "offset": 2276,
       "length": 9,
       "value": "\"quality\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2306,
+      "offset": 2309,
       "length": 5,
       "value": "\"0 0\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2529,
+      "length": 9,
+      "value": "\"shimmer\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2554,
+      "length": 5,
+      "value": "\"low\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2551,
+      "offset": 2743,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2577,
+      "offset": 2769,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2637,
+      "offset": 2829,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2692,
+      "offset": 2884,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2721,
+      "offset": 2913,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2800,
+      "offset": 2992,
       "length": 12,
       "value": "\"mouth_size\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 2877,
+      "offset": 3069,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2948,
+      "offset": 3140,
       "length": 11,
       "value": "\"#FDFDFD00\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3020,
+      "offset": 3212,
       "length": 13,
       "value": "\"0.9 0.9 0.9\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3057,
+      "offset": 3249,
       "length": 9,
       "value": "\"natural\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3091,
+      "offset": 3283,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "Array",
-      "offset": 3143,
+      "offset": 3335,
       "length": 11,
       "value": "[\"0 0 0 0\"]"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3260,
+      "offset": 3452,
       "length": 6,
       "value": "\"high\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3343,
+      "offset": 3535,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "FloatLiteral",
-      "offset": 3370,
+      "offset": 3562,
       "length": 3,
       "value": "1.0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3431,
+      "offset": 3623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3456,
+      "offset": 3648,
       "length": 8,
       "value": "\"screen\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3525,
+      "offset": 3717,
       "length": 10,
       "value": "\"filename\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3553,
+      "offset": 3745,
       "length": 8,
       "value": "\"@blend\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3741,
+      "offset": 3933,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3890,
+      "offset": 4082,
       "length": 9,
       "value": "\"texture\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3916,
+      "offset": 4108,
       "length": 6,
       "value": "\"blur\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/Models\/Effect\/BeautyConfig.swift",
       "kind": "StringLiteral",
-      "offset": 3943,
+      "offset": 4135,
       "length": 10,
       "value": "\"rotation\""
     },

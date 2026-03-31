@@ -96,12 +96,18 @@ public struct PhotoEditorLaunchConfig {
   public init?(token: Swift.String, configuration: BanubaPhotoEditorSDK.PhotoEditorConfig)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
-  @objc public init?(license: BanubaLicenseServicingSDK.License)
+  @objc public init?(license: BanubaLicenseServicingSDK.License, beautyMaskURL: Foundation.URL?, effectPlayerResourcesURL: Foundation.URL?)
   #endif
   @objc deinit
   @objc(presentPhotoEditorForImage:fromViewController:) public func presentPhotoEditor(for image: UIKit.UIImage, from vc: UIKit.UIViewController)
   #if compiler(>=5.3) && $NonescapableTypes
   public func presentPhotoEditor(withLaunchConfiguration configuration: BanubaPhotoEditorSDK.PhotoEditorLaunchConfig, completion: (() -> Swift.Void)?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  public func getPhotoEditorNavigationController(withLaunchConfiguration configuration: BanubaPhotoEditorSDK.PhotoEditorLaunchConfig) -> UIKit.UINavigationController?
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc(getPhotoEditorNavigationControllerForImage:) public func getPhotoEditorNavigationController(for image: UIKit.UIImage) -> UIKit.UINavigationController?
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @objc(dismissPhotoEditorAnimated:completion:) public func dismissPhotoEditor(animated: Swift.Bool, completion: (() -> Swift.Void)?)

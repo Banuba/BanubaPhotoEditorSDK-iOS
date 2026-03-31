@@ -317,13 +317,16 @@ SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK30AlbumPreviewCollectionViewCell")
 
 @protocol BanubaPhotoEditorDelegate;
 @class License;
+@class NSURL;
 @class UIImage;
 @class UIViewController;
+@class UINavigationController;
 SWIFT_CLASS("_TtC20BanubaPhotoEditorSDK17BanubaPhotoEditor")
 @interface BanubaPhotoEditor : NSObject
 @property (nonatomic, weak) id <BanubaPhotoEditorDelegate> _Nullable delegate;
-- (nullable instancetype)initWithLicense:(License * _Nonnull)license OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithLicense:(License * _Nonnull)license beautyMaskURL:(NSURL * _Nullable)beautyMaskURL effectPlayerResourcesURL:(NSURL * _Nullable)effectPlayerResourcesURL OBJC_DESIGNATED_INITIALIZER;
 - (void)presentPhotoEditorForImage:(UIImage * _Nonnull)image fromViewController:(UIViewController * _Nonnull)vc;
+- (UINavigationController * _Nullable)getPhotoEditorNavigationControllerForImage:(UIImage * _Nonnull)image SWIFT_WARN_UNUSED_RESULT;
 /// Dismiss Photo Editor’s root view controller
 - (void)dismissPhotoEditorAnimated:(BOOL)animated completion:(void (^ _Nullable)(void))completion;
 - (nonnull instancetype)init SWIFT_UNAVAILABLE;
