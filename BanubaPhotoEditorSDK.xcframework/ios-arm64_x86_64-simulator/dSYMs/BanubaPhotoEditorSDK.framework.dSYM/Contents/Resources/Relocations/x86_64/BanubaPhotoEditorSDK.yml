@@ -3,7 +3,7 @@ triple:          'x86_64-apple-darwin'
 binary-path:     '/Users/user/Library/Developer/Xcode/DerivedData/VideoEditorSDKSandbox-aluadqwzvdjxxpepgyhbfwupmgoh/Build/Intermediates.noindex/ArchiveIntermediates/BanubaPhotoEditorSDK/InstallationBuildProductsLocation/Library/Frameworks/BanubaPhotoEditorSDK.framework/BanubaPhotoEditorSDK'
 relocations:
   - { offset: 0xAC9B4, size: 0x8, addend: 0x0, symName: _BanubaPhotoEditorSDKVersionString, symObjAddr: 0x0, symBinAddr: 0xA1550, symSize: 0x0 }
-  - { offset: 0xAC9EB, size: 0x8, addend: 0x0, symName: _BanubaPhotoEditorSDKVersionNumber, symObjAddr: 0x50, symBinAddr: 0xA15A0, symSize: 0x0 }
+  - { offset: 0xAC9EB, size: 0x8, addend: 0x0, symName: _BanubaPhotoEditorSDKVersionNumber, symObjAddr: 0x48, symBinAddr: 0xA1598, symSize: 0x0 }
   - { offset: 0xACA41, size: 0x8, addend: 0x0, symName: ___swift_noop_void_return, symObjAddr: 0x50, symBinAddr: 0x1DA0, symSize: 0x10 }
   - { offset: 0xACA55, size: 0x8, addend: 0x0, symName: ___swift_memcpy32_8, symObjAddr: 0x60, symBinAddr: 0x1DB0, symSize: 0x20 }
   - { offset: 0xACA69, size: 0x8, addend: 0x0, symName: ___swift_memcpy16_8, symObjAddr: 0xF0, symBinAddr: 0x1E40, symSize: 0x10 }
