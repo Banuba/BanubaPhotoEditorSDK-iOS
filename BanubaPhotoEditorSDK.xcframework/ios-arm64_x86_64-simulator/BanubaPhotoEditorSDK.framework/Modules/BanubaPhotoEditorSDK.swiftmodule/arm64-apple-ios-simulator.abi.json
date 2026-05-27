@@ -7863,21 +7863,28 @@
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 8822,
+      "offset": 2197,
+      "length": 28,
+      "value": "\"CFBundleShortVersionString\""
+    },
+    {
+      "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
+      "kind": "StringLiteral",
+      "offset": 8289,
       "length": 54,
       "value": "\"Failed to decode image at url. \""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "StringLiteral",
-      "offset": 8875,
+      "offset": 8342,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/user\/.jenkins\/workspace\/Release iOS Photo Editor\/BanubaPhotoEditorSDK\/BanubaPhotoEditorSDK\/BanubaPhotoEditor.swift",
       "kind": "BooleanLiteral",
-      "offset": 9359,
+      "offset": 8826,
       "length": 5,
       "value": "false"
     },

@@ -914,7 +914,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OQePK4er/U5gbu6IATzPyf5ziBc=
+		WZP3blaoRv/k2v/KmNe59zgoIBw=
 		</data>
 		<key>LimitedAccessCell.nib</key>
 		<data>
@@ -930,7 +930,7 @@
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		7qHbIDobXqcAZveM7FcsRBxmWws=
+		U1X+MrHsdNwl+P7L+chfZXd72mY=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -946,11 +946,11 @@
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		fThxmONrMMqAcVDsb+rNPZTorLE=
+		qjS4LjU6tyyDdpCIoygqT3ZGYSM=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		7qHbIDobXqcAZveM7FcsRBxmWws=
+		U1X+MrHsdNwl+P7L+chfZXd72mY=
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -966,7 +966,7 @@
 		</data>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ApFPzsJWcl2ip6SPxK7E4dTKVL0=
+		3oZK1ymn7daLv7D8kum/ZXgCVik=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -2609,7 +2609,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			f3TgsLga9JRlCn5nL0foKGH3olBml6w0Nl2is60esgQ=
+			hl2/1CV6F2hvYE0p5CGQdyt2+UGEyD/ekCLxZiLl8Cw=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -2637,14 +2637,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			81iXVuhluP5TxBrrrpn1pYyRJzh8aPPFZuRODilN6sU=
+			2LgMHhGYHjiB15BnMRCRrEDOtFB+dzRVl5z06/9wM70=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			f3TgsLga9JRlCn5nL0foKGH3olBml6w0Nl2is60esgQ=
+			hl2/1CV6F2hvYE0p5CGQdyt2+UGEyD/ekCLxZiLl8Cw=
 			</data>
 		</dict>
 		<key>Modules/BanubaPhotoEditorSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -2672,7 +2672,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WYdf+9P/vDTrT+WZ9LcNvUv3POgaCEBdWqC/8Yl1g1g=
+			QuX01vHvp2MgT5g5i1nNFncbiJejBDSINeellbpUuT4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
