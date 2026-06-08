@@ -5,6 +5,7 @@ import PackageDescription
 let faceARversionRange: Range<Version> = "1.17.5"..<"1.17.99"
 //let faceARversionRange: Version = "1.16.0"
 let videoEditorSDKRange: Range<Version> = "1.51.0"..<"1.59.99"
+let designSystemVersionRange: Range<Version> = "1.0.0"..<"2.0.0"
 
 let package = Package(
   name: "BanubaPhotoEditorSDK",
@@ -29,6 +30,7 @@ let package = Package(
     .package(url: "https://github.com/sdk-banuba/BNBSkin.git", faceARversionRange),
     .package(url: "https://github.com/sdk-banuba/BNBMakeup.git", faceARversionRange),
     
+    .package(url: "https://github.com/Banuba/BanubaDesignSystem.git", designSystemVersionRange),
     .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", videoEditorSDKRange),
     .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", videoEditorSDKRange),
     .package(url: "https://github.com/Banuba/BNBLicenseUtils-iOS.git", videoEditorSDKRange)
@@ -48,6 +50,7 @@ let package = Package(
         "BNBBackground",
         "BNBSkin",
         "BNBMakeup",
+        .product(name: "BanubaDesignSystem", package: "BanubaDesignSystem"),
         "BanubaLicenseServicingSDK",
         .product(name: "BanubaUtilities", package: "BanubaUtilities-iOS"),
         .product(name: "BNBLicenseUtils", package: "BNBLicenseUtils-iOS")
@@ -63,7 +66,8 @@ let package = Package(
     ),
     .binaryTarget(
       name: "BanubaPhotoEditorSDK",
-      path: "BanubaPhotoEditorSDK.xcframework"
+      url: "https://nexus.banuba.net/repository/ios-frameworks/ios/frameworks/BanubaPhotoEditorSDK/1.4.0-beta.0/BanubaPhotoEditorSDK-1.4.0-beta.0.xcframework.zip",
+      checksum: "8d07805b2deaf370d62d77e347040a85dd42f69c5319cff2b95cc3842f9f7477"
     )
   ]
 )
