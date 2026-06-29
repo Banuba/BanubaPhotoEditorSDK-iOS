@@ -32,7 +32,7 @@ let package = Package(
     
     .package(url: "https://github.com/Banuba/BanubaDesignSystem.git", designSystemVersionRange),
     .package(url: "https://github.com/Banuba/BanubaUtilities-iOS.git", banubaUtilsVersionRange),
-    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", banubaLicenseServicingVersionRange,
+    .package(url: "https://github.com/Banuba/BanubaLicenseServicingSDK.git", banubaLicenseServicingVersionRange),
   ],
   targets: [
     .target(
